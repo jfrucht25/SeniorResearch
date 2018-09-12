@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 09/12/18 09:22:20 by Eclipse SUMO netedit Version 1.0.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\isaia\Desktop\SUMO_files\SUMOlympics\sumolympics.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\isaia\Desktop\SUMO_files\SUMOlympics\sumolympics.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="true"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+</configuration>
+-->
+
+<net version="1.0" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,1000.00,0.00" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <edge id="beg" from="gneJ0" to="gneJ3" priority="-1">
+        <lane id="beg_0" index="0" allow="bus" speed="13.89" length="900.00" shape="0.00,-10.80 900.00,-10.80"/>
+        <lane id="beg_1" index="1" allow="bicycle" speed="13.89" length="900.00" width="2.00" shape="0.00,-8.20 900.00,-8.20"/>
+        <lane id="beg_2" index="2" allow="pedestrian" speed="13.89" length="900.00" width="2.00" shape="0.00,-6.20 900.00,-6.20"/>
+        <lane id="beg_3" index="3" allow="rail_urban" speed="13.89" length="900.00" width="2.00" shape="0.00,-4.20 900.00,-4.20"/>
+        <lane id="beg_4" index="4" allow="passenger" speed="13.89" length="900.00" shape="0.00,-1.60 900.00,-1.60"/>
+    </edge>
+    <edge id="end" from="gneJ3" to="gneJ1" priority="-1">
+        <lane id="end_0" index="0" allow="bus" speed="13.89" length="100.00" shape="900.00,-10.80 1000.00,-10.80"/>
+        <lane id="end_1" index="1" allow="bicycle" speed="13.89" length="100.00" width="2.00" shape="900.00,-8.20 1000.00,-8.20"/>
+        <lane id="end_2" index="2" allow="pedestrian" speed="13.89" length="100.00" width="2.00" shape="900.00,-6.20 1000.00,-6.20"/>
+        <lane id="end_3" index="3" allow="rail_urban" speed="13.89" length="100.00" width="2.00" shape="900.00,-4.20 1000.00,-4.20"/>
+        <lane id="end_4" index="4" allow="passenger" speed="13.89" length="100.00" shape="900.00,-1.60 1000.00,-1.60"/>
+    </edge>
+
+    <tlLogic id="gneJ3" type="static" programID="0" offset="0">
+        <phase duration="100" state="rrrrr"/>
+        <phase duration="1000" state="GGGGG"/>
+    </tlLogic>
+
+    <junction id="gneJ0" type="dead_end" x="0.00" y="0.00" incLanes="" intLanes="" shape="0.00,0.00 0.00,-12.40"/>
+    <junction id="gneJ1" type="dead_end" x="1000.00" y="0.00" incLanes="end_0 end_1 end_2 end_3 end_4" intLanes="" shape="1000.00,-12.40 1000.00,0.00"/>
+    <junction id="gneJ3" type="traffic_light" x="900.00" y="0.00" incLanes="beg_0 beg_1 beg_2 beg_3 beg_4" intLanes="" shape="900.00,0.00 900.00,-12.40 900.00,0.00">
+        <request index="0" response="00000" foes="00000"/>
+        <request index="1" response="00000" foes="00000"/>
+        <request index="2" response="00000" foes="00000"/>
+        <request index="3" response="00000" foes="00000"/>
+        <request index="4" response="00000" foes="00000"/>
+    </junction>
+
+    <connection from="beg" to="end" fromLane="0" toLane="0" tl="gneJ3" linkIndex="0" dir="s" state="O"/>
+    <connection from="beg" to="end" fromLane="1" toLane="1" tl="gneJ3" linkIndex="1" dir="s" state="O"/>
+    <connection from="beg" to="end" fromLane="2" toLane="2" tl="gneJ3" linkIndex="2" dir="s" state="O"/>
+    <connection from="beg" to="end" fromLane="3" toLane="3" tl="gneJ3" linkIndex="3" dir="s" state="O"/>
+    <connection from="beg" to="end" fromLane="4" toLane="4" tl="gneJ3" linkIndex="4" dir="s" state="O"/>
+
+</net>

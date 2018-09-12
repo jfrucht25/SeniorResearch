@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <vType id="GenericCar" length="5.0" minGap="2.5" maxSpeed="50.0" accel="3.0" decel="6.0" sigma="0.5" /> 
+
+  <route id="east_west" edges="EW_1 EW_2"/>
+  <route id="west_east" edges="WE_1 WE_2/>
+  <route id="north_south" edges="NS_1 NS_2/>
+  <route id="south_north" edges="SN_1 SN_2"/>
+
+
+ 
+</routes>
