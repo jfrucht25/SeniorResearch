@@ -1,0 +1,6 @@
+<configuration>
+    <input>
+       <net-file value="turns.net.xml"/>
+       <route-files value="turns.rou.xml"/>
+    </input>
+</configuration>
