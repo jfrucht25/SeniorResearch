@@ -1,0 +1,6 @@
+<configuration>
+    <input>
+       <net-file value="yIntersection.net.xml"/>
+       <route-files value="yIntersection.rou.xml"/>
+    </input>
+</configuration>
