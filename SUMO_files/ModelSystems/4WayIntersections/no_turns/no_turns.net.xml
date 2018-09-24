@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 09/12/18 15:06:32 by Eclipse SUMO netedit Version 1.0.0
+<!-- generated on 09/24/18 14:05:45 by Eclipse SUMO netedit Version 1.0.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="C:\Users\isaia\OneDrive\Documents\GitHub\SeniorResearch\SUMO_files\4WayIntersection\no_turns.net.xml"/>
+        <sumo-net-file value="C:\Users\isaia\OneDrive\Documents\GitHub\SeniorResearch\SUMO_files\ModelSystems\4WayIntersections\no_turns\no_turns.net.xml"/>
     </input>
 
     <output>
-        <output-file value="C:\Users\isaia\OneDrive\Documents\GitHub\SeniorResearch\SUMO_files\4WayIntersection\no_turns.net.xml"/>
+        <output-file value="C:\Users\isaia\OneDrive\Documents\GitHub\SeniorResearch\SUMO_files\ModelSystems\4WayIntersections\no_turns\no_turns.net.xml"/>
     </output>
 
     <processing>
