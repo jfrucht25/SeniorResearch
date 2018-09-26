@@ -2,5 +2,6 @@
     <input>
        <net-file value="tIntersection.net.xml"/>
        <route-files value="tIntersection.rou.xml"/>
+	   <additional-files value="tIntersection_tl.add.xml"/>
     </input>
 </configuration>

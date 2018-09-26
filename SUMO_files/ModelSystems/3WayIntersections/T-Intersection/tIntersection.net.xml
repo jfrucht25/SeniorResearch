@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 09/19/18 09:30:05 by Eclipse SUMO netedit Version 1.0.0
+<!-- generated on 09/26/18 09:05:47 by Eclipse SUMO netedit Version 1.0.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="C:\Users\isaia\OneDrive\Documents\GitHub\SeniorResearch\SUMO_files\3WayIntersection\T-Intersection\tIntersection.net.xml"/>
+        <sumo-net-file value="C:\Users\isaia\OneDrive\Documents\GitHub\SeniorResearch\SUMO_files\ModelSystems\3WayIntersections\T-Intersection\tIntersection.net.xml"/>
     </input>
 
     <output>
-        <output-file value="C:\Users\isaia\OneDrive\Documents\GitHub\SeniorResearch\SUMO_files\3WayIntersection\T-Intersection\tIntersection.net.xml"/>
+        <output-file value="C:\Users\isaia\OneDrive\Documents\GitHub\SeniorResearch\SUMO_files\ModelSystems\3WayIntersections\T-Intersection\tIntersection.net.xml"/>
     </output>
 
     <processing>
@@ -80,16 +80,12 @@
     </edge>
 
     <tlLogic id="gneJ1" type="static" programID="0" offset="0">
-        <phase duration="42" state="rrGGGGGg"/>
-        <phase duration="3"  state="rryyyyyy"/>
-        <phase duration="42" state="GGGrrrrr"/>
-        <phase duration="3"  state="yyyrrrrr"/>
-    </tlLogic>
-    <tlLogic id="gneJ1" type="static" programID="1" offset="0">
-        <phase duration="42" state="rrGGGGGg"/>
-        <phase duration="3"  state="rryyyyyy"/>
-        <phase duration="42" state="GGGrrrrr"/>
-        <phase duration="3"  state="yyyrrrrr"/>
+        <phase duration="38" state="rrGGGg"/>
+        <phase duration="3"  state="rryyyg"/>
+        <phase duration="6"  state="rrrrrG"/>
+        <phase duration="3"  state="rrrrry"/>
+        <phase duration="37" state="GGGrGr"/>
+        <phase duration="3"  state="yyyryr"/>
     </tlLogic>
 
     <junction id="gneJ0" type="dead_end" x="-100.00" y="0.00" incLanes="EW_2_0 EW_2_1" intLanes="" shape="-100.00,0.00 -100.00,6.40 -100.00,0.00"/>
@@ -107,11 +103,11 @@
     <junction id=":gneJ1_6_0" type="internal" x="-2.31" y="0.00" incLanes=":gneJ1_5_0 EW_1_0 EW_1_1" intLanes=":gneJ1_1_0 :gneJ1_2_0 :gneJ1_3_0"/>
 
     <connection from="EW_1" to="SN_2" fromLane="0" toLane="0" via=":gneJ1_2_0" tl="gneJ1" linkIndex="2" dir="r" state="O"/>
-    <connection from="EW_1" to="EW_2" fromLane="1" toLane="1" via=":gneJ1_3_0" tl="gneJ1" linkIndex="4" dir="s" state="O"/>
+    <connection from="EW_1" to="EW_2" fromLane="1" toLane="1" via=":gneJ1_3_0" tl="gneJ1" linkIndex="3" dir="s" state="O"/>
     <connection from="NS_1" to="EW_2" fromLane="0" toLane="1" via=":gneJ1_0_0" tl="gneJ1" linkIndex="0" dir="r" state="o"/>
     <connection from="NS_1" to="WE_2" fromLane="0" toLane="1" via=":gneJ1_1_0" tl="gneJ1" linkIndex="1" dir="l" state="o"/>
-    <connection from="WE_1" to="WE_2" fromLane="0" toLane="0" via=":gneJ1_4_0" tl="gneJ1" linkIndex="5" dir="s" state="O"/>
-    <connection from="WE_1" to="SN_2" fromLane="1" toLane="0" via=":gneJ1_5_0" tl="gneJ1" linkIndex="7" dir="l" state="o"/>
+    <connection from="WE_1" to="WE_2" fromLane="0" toLane="0" via=":gneJ1_4_0" tl="gneJ1" linkIndex="4" dir="s" state="O"/>
+    <connection from="WE_1" to="SN_2" fromLane="1" toLane="0" via=":gneJ1_5_0" tl="gneJ1" linkIndex="5" dir="l" state="o"/>
 
     <connection from=":gneJ1_0" to="EW_2" fromLane="0" toLane="1" dir="r" state="M"/>
     <connection from=":gneJ1_1" to="WE_2" fromLane="0" toLane="1" dir="l" state="M"/>

@@ -8,6 +8,7 @@
     <input>
         <net-file value="2way.net.xml"/>
         <route-files value="2way.rou.xml"/>
+		<additional-files value="2way_tl.add.xml"/>
     </input>
 
     <processing>
