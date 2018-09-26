@@ -8,6 +8,7 @@
     <input>
         <net-file value="littleriver.net.xml"/>
         <route-files value="littleriver.rou.xml"/>
+        <additional-files value="littleriver_tl.add.xml"/>
     </input>
 
     <processing>

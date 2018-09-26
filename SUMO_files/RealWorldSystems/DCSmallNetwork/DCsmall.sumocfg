@@ -8,6 +8,7 @@
     <input>
         <net-file value="DCsmall.net.xml"/>
         <route-files value="DCsmall.rou.xml"/>
+        <additional-files value="DCsmall_tl.add.xml"/>
     </input>
 
     <processing>
