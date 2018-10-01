@@ -1,6 +1,8 @@
-<tlLogic id="49765167" type="static" programID="custom" offset="0">
-    <phase duration="39" state="GGGrrrGG"/>
-    <phase duration="6" state="yyyrrryy"/>
-    <phase duration="39" state="rrrGGGrr"/>
-    <phase duration="6" state="rrryyyrr"/>
-</tlLogic>
+<additional>
+	<tlLogic id="49765167" type="static" programID="custom" offset="0">
+		<phase duration="39" state="GGGrrrGG"/>
+		<phase duration="6" state="yyyrrryy"/>
+		<phase duration="39" state="rrrGGGrr"/>
+		<phase duration="6" state="rrryyyrr"/>
+	</tlLogic>
+</additional>
