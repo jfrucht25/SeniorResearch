@@ -13,4 +13,5 @@ Commands
 - Alter duration and (optionally) phase of given traffic light file
 	
 	python setTrafficTimings -n NETNAME.add.xml
+	
 	python setTrafficTimings --help 
