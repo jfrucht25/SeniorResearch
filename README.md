@@ -9,3 +9,8 @@ Commands
 - Generate random paths 
 
 	python randomTrips.py -n NETNAME.rou.xml -r ROUTENAME.rou.xml
+	
+- Alter duration and (optionally) phase of given traffic light file
+	
+	python setTrafficTimings -n NETNAME.add.xml
+	python setTrafficTimings --help 
