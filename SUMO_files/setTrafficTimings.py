@@ -3,25 +3,27 @@ Set traffic light timings by reading in user input. Take in network file and opt
 """
 
 import argparse
-import msvcrt
-import xml.etree.cElementTree as ET
+import xml.etree.cElementTree as eleTree
 
 
 parser = argparse.ArgumentParser(description="Create traffic light timings")
-parser.add_argument("-n",help="input the filename of the network or add file with traffic")
+parser.add_argument("-n", help="input the filename of the network or add file with traffic")
+parser.add_argument("-s", help="change sta te as well as duration by setting flag to a true value")
 args = parser.parse_args()
 
-tree = ET.parse(args.n)
+tree = eleTree.parse(args.n)
 root = tree.getroot()
-print(root)
-print(root[0])
-print(root[0][0])
 for light in root:
     for phase in light:
-        print(phase.attrib['duration'])
         print("Phase is ", phase.attrib)
-        print("Change timings to:", end="",flush=True)
-        new_timing = input("")
+        if args.s:
+            #possible states are rygGsuoO
+            new_state = input("Change state to: ")
+            while not all(i in "rygGsuoO" for i in new_state) or len(new_state) != len(phase.attrib['state']):
+                new_state = input("Change state to (only use r, y, g, G, s, u, o, or O; must be length %d): "% len(phase.attrib['state']))
+            phase.attrib['state'] = new_state
+        new_timing = input("Change duration to: ")
+        while not new_timing.isdigit():
+            new_timing = input("Change duration to (enter an integer): ")
         phase.attrib['duration'] = new_timing
 tree.write(args.n)
-#TODO: set phase duration through command line (show each one and let user modify)
