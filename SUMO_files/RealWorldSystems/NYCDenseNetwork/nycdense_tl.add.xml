@@ -402,4 +402,5 @@
         <phase duration="39" state="rrrrGGGGrrrr" minDur="5" maxDur="50"/>
         <phase duration="6"  state="rrrryyyyrrrr"/>
     </tlLogic>
+	<edgeData id="Emission Data" file="nycdense.dump.xml"/>
 </additional>

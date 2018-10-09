@@ -9,4 +9,5 @@
 		<phase duration="6" state="rrrrrrrrGGrrrr" minDur="5" maxDur="50"/>
 		<phase duration="6" state="rrrrrrrryyrrrr"/>
 	</tlLogic>
+	<edgeData id="Emission Data" file="littleriver.dump.xml"/>
 /<additional>

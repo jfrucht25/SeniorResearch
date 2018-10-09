@@ -5,4 +5,5 @@
 		<phase duration="21" state="rrGGrrGG"/>
 		<phase duration="3" state="rryyrryy"/>
 	</tlLogic>
+	<edgeData id="Emission Data" file="turns.dump.xml"/>
 </additional>

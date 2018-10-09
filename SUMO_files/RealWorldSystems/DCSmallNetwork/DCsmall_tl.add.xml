@@ -56,4 +56,5 @@
         <phase duration="6"  state="yyyy"/>
         <phase duration="5"  state="rrrr"/>
     </tlLogic>
+	<edgeData id="Emission Data" file="DCsmall.dump.xml"/>
 </additional>

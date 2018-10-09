@@ -5,4 +5,5 @@
 		<phase duration="39" state="rrrGGGrr"/>
 		<phase duration="6" state="rrryyyrr"/>
 	</tlLogic>
+	<edgeData id="Emission Data" file="2way.dump.xml"/>
 </additional>

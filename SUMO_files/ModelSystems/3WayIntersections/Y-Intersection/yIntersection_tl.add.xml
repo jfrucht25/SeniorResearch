@@ -7,4 +7,5 @@
 		<phase duration="37" state="GGGrrr"/>
 		<phase duration="3" state="yyyrrr"/>
 	</tlLogic>
+	<edgeData id="Emission Data" file="yIntersection.dump.xml"/>
 </additional>
