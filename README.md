@@ -6,6 +6,9 @@ Model four-way and three-way intersections with traffic lights made using SUMO. 
 
 Commands 
 -------------------
+- Run SUMO with more information
+	sumo SUMOCFG.sumocfg --tripinfo-output FILE.tripinfo.xml
+	--tripinfo provides info about vehicle departure and arrival
 - Generate random paths 
 
 	python randomTrips.py -n NETNAME.rou.xml -r ROUTENAME.rou.xml
