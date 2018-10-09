@@ -19,14 +19,12 @@ edge_dict = {}
 junction_dict = {}
 tl_count = 0
 for e in netRoot.iter('edge'):
-    #print(e.attrib)
     if 'function' in e.attrib and e.attrib['function'] == 'internal':
         pass
     else:
-        edge_dict[e.attrib['id']] = len([lane for lane in e])
+        edge_dict[e.attrib['id']] = len(e)
 
 for j in netRoot.iter('junction'):
-    #print(j.attrib)
     if j.attrib['type'] != 'internal':
         junction_dict[j.attrib['id']] = j.attrib['type']
 
@@ -43,6 +41,7 @@ if args.t:
     trip_num = 0
     wait_sum = 0
     wait_max = -1
+    vaporized_num = 0
     tripTree = eleTree.parse(args.t)
     tripRoot = tripTree.getroot()
     for t in tripRoot.iter('tripinfo'):
@@ -50,7 +49,12 @@ if args.t:
         wait_sum += w
         trip_num += 1
         wait_max = max(wait_max, w)
+        vaporized_num += 1 if t.attrib['vaporized'] else 0
 
+
+    print("Total number of trips: %d trips" % trip_num)
+    if vaporized_num:
+        print("CRITICAL PROBLEM: %d cars had to be teleported" % vaporized_num)
     print("Average waiting time: %f seconds" % (wait_sum/trip_num))
     print("Average waiting time: %d seconds" % wait_max)
 
