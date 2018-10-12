@@ -7,5 +7,7 @@
 		<phase duration="37" state="GGGrrr"/>
 		<phase duration="3" state="yyyrrr"/>
 	</tlLogic>
-	<edgeData id="Emission Data" file="yIntersection.dump.xml"/>
+	<edgeData id="Traffic Measures" file="yIntersection_traffic.dump.xml"/>
+	<edgeData id="Emission Data" type="emissions "file="yIntersection_pollution.dump.xml"/>
+	<edgeData id="Noise Data" type="harmonoise" file="yIntersection_noise.dump.xml"/>
 </additional>
