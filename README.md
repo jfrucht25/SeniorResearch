@@ -18,3 +18,6 @@ Commands
 	python setTrafficTimings -n NETNAME.add.xml
 	
 	python setTrafficTimings --help 
+-Visualization
+	python plot_net_dump -n NETNAME.net.xml -i NETNAME.dump.xml,NETNAME.dump.xml -o PICNAME.png
+	
