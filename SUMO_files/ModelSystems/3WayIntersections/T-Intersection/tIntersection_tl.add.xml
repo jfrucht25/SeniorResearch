@@ -8,6 +8,6 @@
 		<phase duration="3" state="yyyryr"/>
 	</tlLogic>
 	<edgeData id="Traffic Measures" file="tIntersection_traffic.dump.xml"/>
-	<edgeData id="Emission Data" type="emissions "file="tIntersection_pollution.dump.xml"/>
+	<edgeData id="Emission Data" type="emissions" file="tIntersection_pollution.dump.xml"/>
 	<edgeData id="Noise Data" type="harmonoise" file="tIntersection_noise.dump.xml"/>
 </additional>
