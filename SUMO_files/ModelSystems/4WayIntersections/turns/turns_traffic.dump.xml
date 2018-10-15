@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Sat 13 Oct 2018 06:30:16 PM EDT by SUMO gui Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/james/SeniorResearch/SUMO_files/ModelSystems/4WayIntersections/turns/turns.net.xml"/>
+        <route-files value="/home/james/SeniorResearch/SUMO_files/ModelSystems/4WayIntersections/turns/turns.rou.xml"/>
+        <additional-files value="/home/james/SeniorResearch/SUMO_files/ModelSystems/4WayIntersections/turns/turns_tl.add.xml"/>
+    </input>
+
+</configuration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+    <interval begin="0.00" end="566.00" id="Traffic Measures">
+        <edge id="EW_1" sampledSeconds="1667.96" traveltime="23.69" overlapTraveltime="24.47" density="31.76" occupancy="15.62" waitingTime="596.00" speed="4.00" departed="73" arrived="0" entered="0" left="71" laneChangedFrom="0" laneChangedTo="0"/>
+        <edge id="EW_2" sampledSeconds="502.39" traveltime="7.51" overlapTraveltime="7.89" density="9.56" occupancy="4.51" waitingTime="0.00" speed="12.39" departed="0" arrived="64" entered="64" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+        <edge id="NS_1" sampledSeconds="1376.05" traveltime="20.38" overlapTraveltime="21.17" density="26.20" occupancy="12.86" waitingTime="410.00" speed="4.62" departed="69" arrived="0" entered="0" left="66" laneChangedFrom="0" laneChangedTo="0"/>
+        <edge id="NS_2" sampledSeconds="528.77" traveltime="7.54" overlapTraveltime="7.92" density="10.07" occupancy="4.74" waitingTime="0.00" speed="12.35" departed="0" arrived="67" entered="68" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+        <edge id="SN_1" sampledSeconds="1007.24" traveltime="16.53" overlapTraveltime="17.35" density="19.18" occupancy="9.37" waitingTime="239.00" speed="5.64" departed="63" arrived="0" entered="0" left="59" laneChangedFrom="0" laneChangedTo="0"/>
+        <edge id="SN_2" sampledSeconds="443.44" traveltime="7.65" overlapTraveltime="8.03" density="8.44" occupancy="3.97" waitingTime="0.00" speed="12.18" departed="0" arrived="55" entered="57" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+        <edge id="WE_1" sampledSeconds="1181.22" traveltime="18.00" overlapTraveltime="18.78" density="22.49" occupancy="11.01" waitingTime="299.00" speed="5.21" departed="67" arrived="0" entered="0" left="66" laneChangedFrom="0" laneChangedTo="0"/>
+        <edge id="WE_2" sampledSeconds="566.47" traveltime="7.58" overlapTraveltime="7.96" density="10.78" occupancy="5.09" waitingTime="0.00" speed="12.28" departed="0" arrived="71" entered="72" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+    </interval>
+</meandata>
