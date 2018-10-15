@@ -19,5 +19,6 @@ Commands
 	
 	python setTrafficTimings --help 
 -Visualization
-	python plot_net_dump -n NETNAME.net.xml -i NETNAME.dump.xml,NETNAME.dump.xml -o PICNAME.png
+	python plot_net_dump -n NETNAME.net.xml -i NETNAME.dump.xml,NETNAME.dump.xml  -m MEASURE1, MEASURE2 -o PICNAME.png
+	measures should be in the dump file, they are displayed in the figure
 	
