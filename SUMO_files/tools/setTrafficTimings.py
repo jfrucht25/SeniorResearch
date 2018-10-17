@@ -7,7 +7,7 @@ import xml.etree.cElementTree as eleTree
 
 
 parser = argparse.ArgumentParser(description="Create traffic light timings")
-parser.add_argument("-n", help="input the filename of the network or add file with traffic")
+parser.add_argument("-n", help="input the filename of add file with traffic lights")
 parser.add_argument("-s", help="change state as well as duration by setting flag to a true value")
 args = parser.parse_args()
 
