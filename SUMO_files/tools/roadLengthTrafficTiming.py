@@ -12,4 +12,4 @@ netTree = eleTree.parse(args.n)
 netRoot = netTree.getroot()
 edges = {}  # dictionary of id -> junction info,  lane length, and speed
 lights = {}  # dictionary of id -> junction and length of states
- 
+
