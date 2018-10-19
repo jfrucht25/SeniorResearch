@@ -28,3 +28,642 @@
     </gui_only>
 
 </configuration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+    <interval begin="0.00" end="9974.00" id="Noise Data">
+        <edge id="-148285572#10" sampledSeconds="1150.54" noise="51.56" traveltime="143.62"/>
+        <edge id="-219964428#10" sampledSeconds="71257.15" noise="65.01" traveltime="602.48"/>
+        <edge id="-219964428#11" sampledSeconds="74379.65" noise="64.97" traveltime="1149.60"/>
+        <edge id="-219964428#12" sampledSeconds="80713.76" noise="65.35" traveltime="1060.21"/>
+        <edge id="-219964428#13" sampledSeconds="84685.82" noise="65.58" traveltime="914.46"/>
+        <edge id="-219964428#14" sampledSeconds="78683.28" noise="65.24" traveltime="1149.09"/>
+        <edge id="-219964428#15" sampledSeconds="91565.58" noise="65.75" traveltime="1469.91"/>
+        <edge id="-219964428#16" sampledSeconds="89188.08" noise="65.69" traveltime="1279.08"/>
+        <edge id="-219964428#2" sampledSeconds="242.16" noise="48.62" traveltime="21.97"/>
+        <edge id="-219964428#3" sampledSeconds="79687.53" noise="65.39" traveltime="845.33"/>
+        <edge id="-219964428#4" sampledSeconds="74059.04" noise="65.00" traveltime="1133.05"/>
+        <edge id="-219964428#5" sampledSeconds="83282.13" noise="65.46" traveltime="1049.53"/>
+        <edge id="-219964428#6" sampledSeconds="76974.96" noise="65.16" traveltime="1110.05"/>
+        <edge id="-219964428#7" sampledSeconds="79885.85" noise="65.27" traveltime="1280.14"/>
+        <edge id="-219964428#8" sampledSeconds="88655.82" noise="65.68" traveltime="1147.48"/>
+        <edge id="-219964428#9" sampledSeconds="81739.92" noise="65.37" traveltime="1234.55"/>
+        <edge id="-221696380#0" sampledSeconds="120651.99" noise="67.60" traveltime="793.13"/>
+        <edge id="-222246544#0" sampledSeconds="86785.99" noise="65.59" traveltime="964.00"/>
+        <edge id="-222246544#1" sampledSeconds="81874.13" noise="65.29" traveltime="1676.62"/>
+        <edge id="-222247159" sampledSeconds="218680.50" noise="69.57" traveltime="2818.09"/>
+        <edge id="-227074781#0" sampledSeconds="31.24" noise="41.57" traveltime="6.00"/>
+        <edge id="-227074781#1" sampledSeconds="73.90" noise="44.73" traveltime="5.93"/>
+        <edge id="-227074781#10" sampledSeconds="90843.71" noise="65.75" traveltime="1268.15"/>
+        <edge id="-227074781#11" sampledSeconds="91600.61" noise="65.82" traveltime="1219.09"/>
+        <edge id="-227074781#12" sampledSeconds="88092.73" noise="65.67" traveltime="1309.84"/>
+        <edge id="-227074781#13" sampledSeconds="91891.08" noise="65.83" traveltime="1216.14"/>
+        <edge id="-227074781#14" sampledSeconds="91035.56" noise="65.86" traveltime="1083.81"/>
+        <edge id="-227074781#15" sampledSeconds="91110.19" noise="65.84" traveltime="1136.37"/>
+        <edge id="-227074781#16" sampledSeconds="88323.49" noise="65.72" traveltime="1249.13"/>
+        <edge id="-227074781#18" sampledSeconds="243276.54" noise="69.99" traveltime="4173.45"/>
+        <edge id="-227074781#2" sampledSeconds="79860.36" noise="65.29" traveltime="969.21"/>
+        <edge id="-227074781#3" sampledSeconds="74280.03" noise="65.01" traveltime="1122.33"/>
+        <edge id="-227074781#4" sampledSeconds="78936.73" noise="65.18" traveltime="1414.08"/>
+        <edge id="-227074781#5" sampledSeconds="98282.21" noise="66.05" traveltime="1711.25"/>
+        <edge id="-227074781#6" sampledSeconds="87691.81" noise="65.60" traveltime="1386.05"/>
+        <edge id="-227074781#7" sampledSeconds="91998.92" noise="65.77" traveltime="1688.80"/>
+        <edge id="-227074781#8" sampledSeconds="88908.23" noise="65.72" traveltime="1133.98"/>
+        <edge id="-227074781#9" sampledSeconds="81058.43" noise="65.32" traveltime="1156.67"/>
+        <edge id="-23113651#0" sampledSeconds="84095.63" noise="65.60" traveltime="876.34"/>
+        <edge id="-23113651#1" sampledSeconds="83734.17" noise="65.45" traveltime="1223.11"/>
+        <edge id="-23113651#2" sampledSeconds="65254.85" noise="64.47" traveltime="1165.77"/>
+        <edge id="-350687715#0" sampledSeconds="196748.83" noise="69.17" traveltime="1300.89"/>
+        <edge id="-350687715#1" sampledSeconds="230393.41" noise="70.06" traveltime="1470.67"/>
+        <edge id="-432552966#0" sampledSeconds="59955.32" noise="63.92" traveltime="998.19"/>
+        <edge id="-432552966#1" sampledSeconds="30419.34" noise="60.98" traveltime="390.37"/>
+        <edge id="-432552966#2" sampledSeconds="273219.51" noise="70.47" traveltime="3351.19"/>
+        <edge id="-432552966#3" sampledSeconds="29113.98" noise="61.02" traveltime="302.95"/>
+        <edge id="-432552968" sampledSeconds="246732.50" noise="70.11" traveltime="3189.25"/>
+        <edge id="-432552970#0" sampledSeconds="155524.27" noise="68.05" traveltime="1879.88"/>
+        <edge id="-432552970#1" sampledSeconds="104640.65" noise="66.57" traveltime="947.63"/>
+        <edge id="-432552974" sampledSeconds="274645.76" noise="70.58" traveltime="2975.28"/>
+        <edge id="-432552975" sampledSeconds="270918.04" noise="70.48" traveltime="3881.13"/>
+        <edge id="-432552978" sampledSeconds="303815.28" noise="70.99" traveltime="3949.87"/>
+        <edge id="-432552979#0" sampledSeconds="133379.28" noise="67.38" traveltime="1911.01"/>
+        <edge id="-432552979#1" sampledSeconds="173649.26" noise="68.51" traveltime="2399.73"/>
+        <edge id="-432552980#0" sampledSeconds="75175.26" noise="64.95" traveltime="928.15"/>
+        <edge id="-432552980#1" sampledSeconds="206203.59" noise="69.31" traveltime="2260.65"/>
+        <edge id="-432552981#0" sampledSeconds="92150.83" noise="65.85" traveltime="1068.10"/>
+        <edge id="-432552981#1" sampledSeconds="190963.24" noise="69.00" traveltime="2029.03"/>
+        <edge id="-432552982" sampledSeconds="257660.08" noise="70.32" traveltime="3037.54"/>
+        <edge id="-445183600" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="-445183601" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="-5675264" sampledSeconds="122545.91" noise="67.00" traveltime="2920.31"/>
+        <edge id="-5678026" sampledSeconds="45042.45" noise="62.75" traveltime="1036.83"/>
+        <edge id="-5678419" sampledSeconds="198.67" noise="44.53" traveltime="18.08"/>
+        <edge id="-5679171#10" sampledSeconds="280638.99" noise="70.66" traveltime="3433.96"/>
+        <edge id="-5679171#11" sampledSeconds="307934.40" noise="71.00" traveltime="3884.57"/>
+        <edge id="-5679171#12" sampledSeconds="35084.47" noise="61.89" traveltime="327.62"/>
+        <edge id="-5679171#3" sampledSeconds="732.82" noise="52.92" traveltime="73.22"/>
+        <edge id="-5679171#4" sampledSeconds="277931.79" noise="70.56" traveltime="4518.64"/>
+        <edge id="-5679171#5" sampledSeconds="283491.51" noise="70.60" traveltime="5691.19"/>
+        <edge id="-5679171#6" sampledSeconds="277736.95" noise="70.56" traveltime="4318.24"/>
+        <edge id="-5679171#7" sampledSeconds="292265.58" noise="70.77" traveltime="4092.64"/>
+        <edge id="-5679171#8" sampledSeconds="258410.02" noise="70.28" traveltime="3454.30"/>
+        <edge id="-5679171#9" sampledSeconds="289243.65" noise="70.76" traveltime="3527.28"/>
+        <edge id="-5679875#0" sampledSeconds="82815.80" noise="65.36" traveltime="1592.27"/>
+        <edge id="-5679875#1" sampledSeconds="107711.93" noise="66.51" traveltime="1468.30"/>
+        <edge id="-570156789" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="-570156790#0" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="-570156792" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="-570156793" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="-570156795" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="-586174692" sampledSeconds="95847.83" noise="66.03" traveltime="1365.65"/>
+        <edge id="-587067519" sampledSeconds="211294.60" noise="69.43" traveltime="3443.90"/>
+        <edge id="-587067526#0" sampledSeconds="68.73" noise="50.97" traveltime="5.04"/>
+        <edge id="-587067526#1" sampledSeconds="111.12" noise="52.90" traveltime="5.28"/>
+        <edge id="-587067526#2" sampledSeconds="101107.70" noise="66.50" traveltime="977.38"/>
+        <edge id="-587067527#0" sampledSeconds="223858.40" noise="69.62" traveltime="3220.24"/>
+        <edge id="-587067527#1" sampledSeconds="154088.10" noise="68.05" traveltime="1969.86"/>
+        <edge id="-587067527#2" sampledSeconds="104755.15" noise="66.47" traveltime="1108.04"/>
+        <edge id="-587067528" sampledSeconds="379001.42" noise="71.85" traveltime="7211.49"/>
+        <edge id="-587067529#0" sampledSeconds="130512.39" noise="67.41" traveltime="1329.68"/>
+        <edge id="-587067529#1" sampledSeconds="196355.68" noise="69.17" traveltime="2118.15"/>
+        <edge id="107391104" sampledSeconds="381.71" noise="59.29" traveltime="54.37"/>
+        <edge id="112168177#0" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="112168177#1" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="112168177#2" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="112168177#3" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="112168177#4" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="112168177#5" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="112168180#0" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="112168180#1" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="112168180#2" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="112168180#3" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="112168181#0" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="112168181#2" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="112168190" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="148285572#0" sampledSeconds="211119.70" noise="69.68" traveltime="3290.88"/>
+        <edge id="219964428#0" sampledSeconds="306768.46" noise="71.00" traveltime="4687.99"/>
+        <edge id="219964428#10" sampledSeconds="77839.92" noise="65.19" traveltime="1042.13"/>
+        <edge id="219964428#11" sampledSeconds="86695.90" noise="65.69" traveltime="867.83"/>
+        <edge id="219964428#12" sampledSeconds="89265.17" noise="65.71" traveltime="1136.88"/>
+        <edge id="219964428#13" sampledSeconds="90942.30" noise="65.75" traveltime="1405.71"/>
+        <edge id="219964428#14" sampledSeconds="93852.80" noise="65.82" traveltime="1696.04"/>
+        <edge id="219964428#15" sampledSeconds="77105.08" noise="65.15" traveltime="1256.14"/>
+        <edge id="219964428#16" sampledSeconds="83368.13" noise="65.41" traveltime="1190.91"/>
+        <edge id="219964428#3" sampledSeconds="87825.28" noise="65.72" traveltime="1122.56"/>
+        <edge id="219964428#4" sampledSeconds="88821.06" noise="65.79" traveltime="931.61"/>
+        <edge id="219964428#5" sampledSeconds="88785.43" noise="65.79" traveltime="888.44"/>
+        <edge id="219964428#6" sampledSeconds="88789.37" noise="65.79" traveltime="932.05"/>
+        <edge id="219964428#7" sampledSeconds="91621.91" noise="65.93" traveltime="972.09"/>
+        <edge id="219964428#8" sampledSeconds="87419.93" noise="65.71" traveltime="994.01"/>
+        <edge id="219964428#9" sampledSeconds="91118.36" noise="65.81" traveltime="1020.41"/>
+        <edge id="221446578#0" sampledSeconds="313471.10" noise="71.30" traveltime="4745.73"/>
+        <edge id="221446578#1" sampledSeconds="300218.63" noise="70.92" traveltime="3917.56"/>
+        <edge id="221446578#2" sampledSeconds="289947.40" noise="70.78" traveltime="3539.43"/>
+        <edge id="221446578#3" sampledSeconds="308276.46" noise="71.04" traveltime="3811.97"/>
+        <edge id="221446578#4" sampledSeconds="269625.07" noise="70.46" traveltime="3583.24"/>
+        <edge id="221446578#5" sampledSeconds="288524.33" noise="70.78" traveltime="3276.61"/>
+        <edge id="221446578#6" sampledSeconds="252550.76" noise="70.24" traveltime="2902.75"/>
+        <edge id="221446578#7" sampledSeconds="276574.03" noise="70.60" traveltime="3170.55"/>
+        <edge id="221446578#8" sampledSeconds="295740.36" noise="70.93" traveltime="3226.40"/>
+        <edge id="221446578#9" sampledSeconds="376631.26" noise="71.91" traveltime="4195.04"/>
+        <edge id="221585914#0" sampledSeconds="38625.40" noise="62.01" traveltime="1132.93"/>
+        <edge id="221585914#1" sampledSeconds="96210.58" noise="65.91" traveltime="2701.29"/>
+        <edge id="221585914#10" sampledSeconds="90652.24" noise="65.75" traveltime="1558.81"/>
+        <edge id="221585914#11" sampledSeconds="42209.78" noise="62.56" traveltime="415.02"/>
+        <edge id="221585914#12" sampledSeconds="58505.87" noise="63.96" traveltime="625.66"/>
+        <edge id="221585914#13" sampledSeconds="93352.01" noise="65.93" traveltime="1058.86"/>
+        <edge id="221585914#14" sampledSeconds="87774.19" noise="65.69" traveltime="1142.20"/>
+        <edge id="221585914#15" sampledSeconds="94858.90" noise="65.93" traveltime="1402.61"/>
+        <edge id="221585914#16" sampledSeconds="78315.28" noise="65.22" traveltime="1080.22"/>
+        <edge id="221585914#17" sampledSeconds="82259.48" noise="65.42" traveltime="1120.63"/>
+        <edge id="221585914#18" sampledSeconds="164348.39" noise="68.34" traveltime="2345.40"/>
+        <edge id="221585914#19" sampledSeconds="511.19" noise="51.59" traveltime="42.55"/>
+        <edge id="221585914#2" sampledSeconds="93361.19" noise="65.84" traveltime="1868.43"/>
+        <edge id="221585914#3" sampledSeconds="92089.72" noise="65.79" traveltime="1653.08"/>
+        <edge id="221585914#4" sampledSeconds="95925.68" noise="65.89" traveltime="2434.97"/>
+        <edge id="221585914#5" sampledSeconds="88245.29" noise="65.60" traveltime="1805.91"/>
+        <edge id="221585914#6" sampledSeconds="91794.05" noise="65.81" traveltime="1494.26"/>
+        <edge id="221585914#7" sampledSeconds="93744.38" noise="65.82" traveltime="2026.59"/>
+        <edge id="221585914#8" sampledSeconds="84917.49" noise="65.46" traveltime="1396.00"/>
+        <edge id="221585914#9" sampledSeconds="90388.91" noise="65.76" traveltime="1281.95"/>
+        <edge id="221688254" sampledSeconds="164426.30" noise="68.35" traveltime="1661.61"/>
+        <edge id="221696379" sampledSeconds="149392.59" noise="67.90" traveltime="1940.31"/>
+        <edge id="221696380#0" sampledSeconds="218052.39" noise="69.94" traveltime="1234.60"/>
+        <edge id="221696380#1" sampledSeconds="268991.53" noise="70.76" traveltime="1739.69"/>
+        <edge id="221696381#0" sampledSeconds="150032.84" noise="68.25" traveltime="767.13"/>
+        <edge id="221696381#1" sampledSeconds="176203.88" noise="68.78" traveltime="1063.91"/>
+        <edge id="221696381#2" sampledSeconds="160788.90" noise="68.35" traveltime="1171.77"/>
+        <edge id="221696386#0" sampledSeconds="156722.18" noise="68.23" traveltime="1238.39"/>
+        <edge id="221696386#1" sampledSeconds="149846.91" noise="68.07" traveltime="1151.10"/>
+        <edge id="221696386#10" sampledSeconds="303.53" noise="57.62" traveltime="37.75"/>
+        <edge id="221696386#2" sampledSeconds="168723.66" noise="68.62" traveltime="1019.64"/>
+        <edge id="221696386#3" sampledSeconds="168729.07" noise="68.71" traveltime="913.37"/>
+        <edge id="221696386#4" sampledSeconds="161671.29" noise="68.62" traveltime="764.89"/>
+        <edge id="221696386#5" sampledSeconds="151515.84" noise="68.58" traveltime="651.11"/>
+        <edge id="221696386#6" sampledSeconds="149668.45" noise="68.50" traveltime="709.46"/>
+        <edge id="221696386#7" sampledSeconds="139742.37" noise="68.01" traveltime="646.51"/>
+        <edge id="221696386#8" sampledSeconds="140542.11" noise="67.85" traveltime="994.66"/>
+        <edge id="221696386#9" sampledSeconds="124562.11" noise="67.28" traveltime="1148.61"/>
+        <edge id="221777109#0" sampledSeconds="373300.36" noise="71.96" traveltime="5226.87"/>
+        <edge id="221777109#1" sampledSeconds="90374.20" noise="65.90" traveltime="749.47"/>
+        <edge id="221777109#10" sampledSeconds="92785.39" noise="65.94" traveltime="887.45"/>
+        <edge id="221777109#11" sampledSeconds="80364.60" noise="65.45" traveltime="630.12"/>
+        <edge id="221777109#12" sampledSeconds="88901.02" noise="65.82" traveltime="875.94"/>
+        <edge id="221777109#13" sampledSeconds="83067.40" noise="65.54" traveltime="905.01"/>
+        <edge id="221777109#14" sampledSeconds="88408.76" noise="65.71" traveltime="965.04"/>
+        <edge id="221777109#15" sampledSeconds="85336.88" noise="65.61" traveltime="1061.98"/>
+        <edge id="221777109#16" sampledSeconds="86662.81" noise="65.66" traveltime="1018.73"/>
+        <edge id="221777109#17" sampledSeconds="88411.25" noise="65.65" traveltime="1573.04"/>
+        <edge id="221777109#2" sampledSeconds="92917.97" noise="65.81" traveltime="1537.98"/>
+        <edge id="221777109#3" sampledSeconds="91727.82" noise="65.87" traveltime="1202.47"/>
+        <edge id="221777109#4" sampledSeconds="89713.59" noise="65.91" traveltime="837.31"/>
+        <edge id="221777109#5" sampledSeconds="90456.08" noise="65.77" traveltime="1117.68"/>
+        <edge id="221777109#6" sampledSeconds="89196.84" noise="65.86" traveltime="807.08"/>
+        <edge id="221777109#7" sampledSeconds="93628.77" noise="65.91" traveltime="1165.85"/>
+        <edge id="221777109#8" sampledSeconds="90963.07" noise="65.89" traveltime="909.13"/>
+        <edge id="221777109#9" sampledSeconds="88937.85" noise="65.91" traveltime="783.56"/>
+        <edge id="222246282#0" sampledSeconds="81465.67" noise="65.39" traveltime="871.61"/>
+        <edge id="222246282#1" sampledSeconds="115275.19" noise="66.70" traveltime="2298.30"/>
+        <edge id="222246285#0" sampledSeconds="165838.17" noise="68.39" traveltime="1644.97"/>
+        <edge id="222246285#1" sampledSeconds="176527.70" noise="68.69" traveltime="1428.47"/>
+        <edge id="222246285#2" sampledSeconds="173388.52" noise="68.60" traveltime="1576.06"/>
+        <edge id="222246539" sampledSeconds="599.75" noise="51.61" traveltime="28.20"/>
+        <edge id="222246540#0" sampledSeconds="85800.43" noise="65.60" traveltime="1117.95"/>
+        <edge id="222246540#1" sampledSeconds="89998.53" noise="65.90" traveltime="895.46"/>
+        <edge id="222246540#2" sampledSeconds="86926.18" noise="65.67" traveltime="1151.36"/>
+        <edge id="222246542#0" sampledSeconds="90832.76" noise="65.83" traveltime="1079.41"/>
+        <edge id="222246542#1" sampledSeconds="86657.00" noise="65.70" traveltime="938.43"/>
+        <edge id="222246542#2" sampledSeconds="86947.92" noise="65.61" traveltime="1141.71"/>
+        <edge id="222246542#3" sampledSeconds="86902.37" noise="65.56" traveltime="1597.43"/>
+        <edge id="222246542#4" sampledSeconds="85441.98" noise="65.52" traveltime="1458.96"/>
+        <edge id="222246542#5" sampledSeconds="84387.21" noise="65.48" traveltime="1137.52"/>
+        <edge id="222246543#0" sampledSeconds="84752.78" noise="65.77" traveltime="552.79"/>
+        <edge id="222246543#1" sampledSeconds="83087.03" noise="65.68" traveltime="434.19"/>
+        <edge id="222246543#2" sampledSeconds="73.24" noise="45.69" traveltime="2.25"/>
+        <edge id="222246543#3" sampledSeconds="152.82" noise="46.11" traveltime="5.95"/>
+        <edge id="222246543#4" sampledSeconds="60.29" noise="41.85" traveltime="2.59"/>
+        <edge id="222246544#0" sampledSeconds="70842.29" noise="64.79" traveltime="900.71"/>
+        <edge id="222246544#1" sampledSeconds="84222.74" noise="65.39" traveltime="795.76"/>
+        <edge id="222247159" sampledSeconds="203624.73" noise="69.20" traveltime="3509.63"/>
+        <edge id="227064551#0" sampledSeconds="82746.44" noise="65.45" traveltime="807.62"/>
+        <edge id="227064551#1" sampledSeconds="23.47" noise="40.55" traveltime="1.64"/>
+        <edge id="227074779#0" sampledSeconds="72803.61" noise="65.31" traveltime="275.28"/>
+        <edge id="227074779#1" sampledSeconds="489780.07" noise="73.54" traveltime="2184.93"/>
+        <edge id="227074781#0" sampledSeconds="85861.27" noise="65.61" traveltime="1365.41"/>
+        <edge id="227074781#1" sampledSeconds="86430.35" noise="65.66" traveltime="1009.98"/>
+        <edge id="227074781#10" sampledSeconds="77339.61" noise="65.30" traveltime="746.10"/>
+        <edge id="227074781#11" sampledSeconds="87100.63" noise="65.71" traveltime="809.01"/>
+        <edge id="227074781#12" sampledSeconds="81181.17" noise="65.46" traveltime="843.08"/>
+        <edge id="227074781#13" sampledSeconds="80886.59" noise="65.39" traveltime="1042.47"/>
+        <edge id="227074781#14" sampledSeconds="83966.90" noise="65.46" traveltime="1141.67"/>
+        <edge id="227074781#15" sampledSeconds="78094.33" noise="65.26" traveltime="1032.72"/>
+        <edge id="227074781#16" sampledSeconds="82270.08" noise="65.47" traveltime="981.06"/>
+        <edge id="227074781#17" sampledSeconds="120.43" noise="46.43" traveltime="17.06"/>
+        <edge id="227074781#2" sampledSeconds="87590.77" noise="65.69" traveltime="966.50"/>
+        <edge id="227074781#3" sampledSeconds="89226.22" noise="65.78" traveltime="842.14"/>
+        <edge id="227074781#4" sampledSeconds="93097.60" noise="65.89" traveltime="880.77"/>
+        <edge id="227074781#5" sampledSeconds="85071.74" noise="65.60" traveltime="1089.37"/>
+        <edge id="227074781#6" sampledSeconds="77079.20" noise="65.24" traveltime="717.87"/>
+        <edge id="227074781#7" sampledSeconds="77174.92" noise="65.27" traveltime="812.34"/>
+        <edge id="227074781#8" sampledSeconds="74308.19" noise="65.21" traveltime="599.07"/>
+        <edge id="227074781#9" sampledSeconds="69666.44" noise="65.06" traveltime="439.66"/>
+        <edge id="23113651#0" sampledSeconds="79007.52" noise="65.38" traveltime="800.86"/>
+        <edge id="23113651#1" sampledSeconds="84527.13" noise="65.56" traveltime="782.06"/>
+        <edge id="23113651#2" sampledSeconds="45.54" noise="43.59" traveltime="6.32"/>
+        <edge id="275355374" sampledSeconds="290049.45" noise="70.74" traveltime="4180.62"/>
+        <edge id="34287042#0" sampledSeconds="113035.60" noise="66.80" traveltime="1277.67"/>
+        <edge id="34287042#1" sampledSeconds="149974.16" noise="67.87" traveltime="2121.37"/>
+        <edge id="34287042#10" sampledSeconds="255324.76" noise="70.28" traveltime="2896.61"/>
+        <edge id="34287042#11" sampledSeconds="293089.87" noise="70.78" traveltime="4576.39"/>
+        <edge id="34287042#12" sampledSeconds="273095.53" noise="70.48" traveltime="4587.27"/>
+        <edge id="34287042#13" sampledSeconds="278.73" noise="49.28" traveltime="27.78"/>
+        <edge id="34287042#2" sampledSeconds="171351.60" noise="68.50" traveltime="1976.85"/>
+        <edge id="34287042#3" sampledSeconds="58245.26" noise="63.79" traveltime="963.02"/>
+        <edge id="34287042#4" sampledSeconds="388715.14" noise="71.97" traveltime="6544.93"/>
+        <edge id="34287042#5" sampledSeconds="303318.22" noise="70.97" traveltime="4415.20"/>
+        <edge id="34287042#6" sampledSeconds="274671.34" noise="70.57" traveltime="3234.61"/>
+        <edge id="34287042#7" sampledSeconds="299492.33" noise="70.95" traveltime="2981.25"/>
+        <edge id="34287042#8" sampledSeconds="274459.38" noise="70.59" traveltime="2722.71"/>
+        <edge id="34287042#9" sampledSeconds="295021.89" noise="70.83" traveltime="4378.95"/>
+        <edge id="34593472#0" sampledSeconds="208710.23" noise="69.38" traveltime="2606.86"/>
+        <edge id="34593472#1" sampledSeconds="387050.81" noise="72.00" traveltime="4978.79"/>
+        <edge id="34593472#10" sampledSeconds="275812.06" noise="70.61" traveltime="2958.24"/>
+        <edge id="34593472#11" sampledSeconds="270048.98" noise="70.46" traveltime="3982.30"/>
+        <edge id="34593472#12" sampledSeconds="294488.54" noise="70.77" traveltime="5445.49"/>
+        <edge id="34593472#13" sampledSeconds="99.48" noise="46.44" traveltime="14.11"/>
+        <edge id="34593472#2" sampledSeconds="184996.32" noise="68.92" traveltime="1804.09"/>
+        <edge id="34593472#3" sampledSeconds="136389.81" noise="67.56" traveltime="1365.95"/>
+        <edge id="34593472#4" sampledSeconds="185643.89" noise="68.95" traveltime="1658.92"/>
+        <edge id="34593472#5" sampledSeconds="89275.83" noise="65.74" traveltime="821.44"/>
+        <edge id="34593472#6" sampledSeconds="251218.39" noise="70.21" traveltime="2646.00"/>
+        <edge id="34593472#7" sampledSeconds="69458.17" noise="64.83" traveltime="623.05"/>
+        <edge id="34593472#8" sampledSeconds="222777.79" noise="69.67" traveltime="2027.86"/>
+        <edge id="34593472#9" sampledSeconds="303729.95" noise="70.92" traveltime="4518.94"/>
+        <edge id="350687715#0" sampledSeconds="84992.68" noise="65.66" traveltime="1297.75"/>
+        <edge id="350687715#1" sampledSeconds="113140.51" noise="67.10" traveltime="1055.48"/>
+        <edge id="37394901" sampledSeconds="76.24" noise="45.01" traveltime="7.44"/>
+        <edge id="37434658#0" sampledSeconds="126515.97" noise="67.90" traveltime="1842.98"/>
+        <edge id="37434658#1" sampledSeconds="282832.01" noise="70.92" traveltime="1500.16"/>
+        <edge id="37434658#2" sampledSeconds="262568.03" noise="70.85" traveltime="961.76"/>
+        <edge id="37434658#3" sampledSeconds="294130.51" noise="71.17" traveltime="1083.72"/>
+        <edge id="37434658#4" sampledSeconds="341735.29" noise="71.83" traveltime="1212.09"/>
+        <edge id="37434658#5" sampledSeconds="348403.67" noise="71.92" traveltime="1201.16"/>
+        <edge id="37434658#6" sampledSeconds="462313.18" noise="72.99" traveltime="1802.37"/>
+        <edge id="37434658#7" sampledSeconds="370706.02" noise="72.11" traveltime="1506.07"/>
+        <edge id="37434658#8" sampledSeconds="624645.35" noise="74.15" traveltime="3242.29"/>
+        <edge id="40879226#0" sampledSeconds="291929.59" noise="71.26" traveltime="3990.73"/>
+        <edge id="40879226#4" sampledSeconds="285598.64" noise="70.71" traveltime="3550.73"/>
+        <edge id="40879226#5" sampledSeconds="289828.75" noise="70.73" traveltime="4456.23"/>
+        <edge id="40879226#6" sampledSeconds="310646.71" noise="70.97" traveltime="6515.31"/>
+        <edge id="420626018" sampledSeconds="43.24" noise="41.57" traveltime="3.12"/>
+        <edge id="420875709" sampledSeconds="39918.08" noise="64.41" traveltime="693.34"/>
+        <edge id="432552966#0" sampledSeconds="46516.71" noise="62.95" traveltime="718.62"/>
+        <edge id="432552966#1" sampledSeconds="26918.85" noise="60.77" traveltime="280.85"/>
+        <edge id="432552966#2" sampledSeconds="255150.88" noise="70.19" traveltime="3264.54"/>
+        <edge id="432552966#3" sampledSeconds="28852.93" noise="60.81" traveltime="442.02"/>
+        <edge id="432552968" sampledSeconds="294635.50" noise="70.84" traveltime="3752.00"/>
+        <edge id="432552970#1" sampledSeconds="95280.69" noise="66.01" traveltime="1738.07"/>
+        <edge id="432552974" sampledSeconds="290438.66" noise="70.77" traveltime="3400.37"/>
+        <edge id="432552975" sampledSeconds="279710.47" noise="70.66" traveltime="2821.13"/>
+        <edge id="432552978" sampledSeconds="346819.41" noise="71.43" traveltime="8220.04"/>
+        <edge id="432552979#0" sampledSeconds="121860.09" noise="67.06" traveltime="1148.86"/>
+        <edge id="432552979#1" sampledSeconds="176336.55" noise="68.66" traveltime="1604.12"/>
+        <edge id="432552980#0" sampledSeconds="65966.00" noise="64.61" traveltime="465.78"/>
+        <edge id="432552980#1" sampledSeconds="218390.72" noise="69.64" traveltime="1673.68"/>
+        <edge id="432552981#0" sampledSeconds="82102.90" noise="65.48" traveltime="668.75"/>
+        <edge id="432552981#1" sampledSeconds="202490.16" noise="69.24" traveltime="1836.27"/>
+        <edge id="432552982" sampledSeconds="301649.91" noise="70.96" traveltime="3037.93"/>
+        <edge id="445183598#1" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="445183600" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="445183601" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="445183606#0" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="445183606#1" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="445183606#2" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="445183607#0" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="445183607#1" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="445183608" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="447792827#0" sampledSeconds="285717.56" noise="70.76" traveltime="2893.30"/>
+        <edge id="447792827#1" sampledSeconds="67097.79" noise="64.88" traveltime="410.13"/>
+        <edge id="46340197" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="46696288" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="46863648#0" sampledSeconds="26.12" noise="41.34" traveltime="26.13"/>
+        <edge id="46863648#1" sampledSeconds="14.38" noise="37.17" traveltime="6.88"/>
+        <edge id="46863673#0" sampledSeconds="202248.63" noise="69.79" traveltime="1242.84"/>
+        <edge id="46863673#1" sampledSeconds="29080.63" noise="61.61" traveltime="108.13"/>
+        <edge id="46863673#2" sampledSeconds="133925.82" noise="67.79" traveltime="872.32"/>
+        <edge id="46863673#3" sampledSeconds="126623.52" noise="67.45" traveltime="1156.70"/>
+        <edge id="46865765#0" sampledSeconds="315745.93" noise="71.20" traveltime="2773.69"/>
+        <edge id="46865765#1" sampledSeconds="150756.96" noise="68.10" traveltime="1285.50"/>
+        <edge id="46865765#10" sampledSeconds="271713.88" noise="70.47" traveltime="4260.96"/>
+        <edge id="46865765#11" sampledSeconds="292696.31" noise="70.78" traveltime="3477.00"/>
+        <edge id="46865765#2" sampledSeconds="9706.73" noise="56.60" traveltime="51.62"/>
+        <edge id="46865765#3" sampledSeconds="29023.44" noise="61.08" traveltime="199.54"/>
+        <edge id="46865765#4" sampledSeconds="58160.56" noise="63.97" traveltime="422.16"/>
+        <edge id="46865765#5" sampledSeconds="29304.73" noise="61.16" traveltime="205.21"/>
+        <edge id="46865765#6" sampledSeconds="271108.15" noise="70.55" traveltime="2832.98"/>
+        <edge id="46865765#7" sampledSeconds="272003.90" noise="70.59" traveltime="2610.45"/>
+        <edge id="46865765#8" sampledSeconds="243105.50" noise="70.10" traveltime="2670.70"/>
+        <edge id="46865765#9" sampledSeconds="291936.33" noise="70.86" traveltime="2916.53"/>
+        <edge id="489437291" sampledSeconds="84120.53" noise="65.54" traveltime="874.87"/>
+        <edge id="489437292#0" sampledSeconds="87075.03" noise="65.78" traveltime="768.59"/>
+        <edge id="489437292#1" sampledSeconds="86834.54" noise="65.84" traveltime="704.80"/>
+        <edge id="489437292#10" sampledSeconds="88859.67" noise="65.67" traveltime="1527.10"/>
+        <edge id="489437292#11" sampledSeconds="113.82" noise="45.80" traveltime="12.61"/>
+        <edge id="489437292#2" sampledSeconds="88464.20" noise="65.75" traveltime="804.12"/>
+        <edge id="489437292#3" sampledSeconds="82700.46" noise="65.58" traveltime="675.97"/>
+        <edge id="489437292#4" sampledSeconds="89207.52" noise="65.84" traveltime="879.79"/>
+        <edge id="489437292#5" sampledSeconds="89837.53" noise="65.83" traveltime="966.35"/>
+        <edge id="489437292#6" sampledSeconds="92341.67" noise="65.84" traveltime="1252.36"/>
+        <edge id="489437292#7" sampledSeconds="89614.27" noise="65.81" traveltime="1056.50"/>
+        <edge id="489437292#8" sampledSeconds="89856.02" noise="65.76" traveltime="1223.41"/>
+        <edge id="489437292#9" sampledSeconds="87210.96" noise="65.62" traveltime="1257.93"/>
+        <edge id="495491355#0" sampledSeconds="84971.76" noise="65.60" traveltime="962.18"/>
+        <edge id="495491355#1" sampledSeconds="90739.04" noise="65.87" traveltime="872.79"/>
+        <edge id="495491356#1" sampledSeconds="169486.50" noise="68.73" traveltime="642.36"/>
+        <edge id="495491356#2" sampledSeconds="167205.10" noise="68.60" traveltime="767.03"/>
+        <edge id="495491356#3" sampledSeconds="731186.41" noise="75.38" traveltime="2776.15"/>
+        <edge id="497256110#0" sampledSeconds="133745.29" noise="67.71" traveltime="891.55"/>
+        <edge id="497256110#1" sampledSeconds="68.51" noise="51.13" traveltime="4.36"/>
+        <edge id="497257926#0" sampledSeconds="144901.40" noise="68.19" traveltime="841.83"/>
+        <edge id="497257926#1" sampledSeconds="142091.95" noise="68.07" traveltime="747.26"/>
+        <edge id="497257926#2" sampledSeconds="395.66" noise="59.71" traveltime="5.23"/>
+        <edge id="497257926#3" sampledSeconds="277.47" noise="55.98" traveltime="3.67"/>
+        <edge id="497257926#4" sampledSeconds="111.33" noise="50.89" traveltime="3.68"/>
+        <edge id="515885147#0" sampledSeconds="57290.12" noise="64.28" traveltime="346.83"/>
+        <edge id="515885147#1" sampledSeconds="81410.29" noise="65.27" traveltime="1326.34"/>
+        <edge id="515885147#2" sampledSeconds="84431.41" noise="65.43" traveltime="1197.63"/>
+        <edge id="51980526#0" sampledSeconds="272614.04" noise="70.51" traveltime="3464.16"/>
+        <edge id="51980526#1" sampledSeconds="301554.69" noise="70.89" traveltime="4490.19"/>
+        <edge id="51980526#2" sampledSeconds="267768.55" noise="70.44" traveltime="3457.60"/>
+        <edge id="51980526#3" sampledSeconds="298974.52" noise="70.92" traveltime="2852.68"/>
+        <edge id="51980526#4" sampledSeconds="58531.29" noise="63.86" traveltime="711.63"/>
+        <edge id="538396174#0" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396174#1" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396175#0" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396175#1" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396175#2" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396176" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396177#0" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396177#1" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396177#2" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396177#3" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396178#0" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396178#1" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396178#2" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396178#3" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396179" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396180#0" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396180#1" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396180#2" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396180#3" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396181" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396182" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396183" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396186" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396190#1" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396190#2" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="538396190#3" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="5675264" sampledSeconds="70.26" noise="44.84" traveltime="7.87"/>
+        <edge id="5676234#0" sampledSeconds="222353.89" noise="69.66" traveltime="4118.70"/>
+        <edge id="5676234#1" sampledSeconds="190100.80" noise="68.99" traveltime="2293.21"/>
+        <edge id="5676234#2" sampledSeconds="90399.24" noise="65.87" traveltime="946.66"/>
+        <edge id="5676234#3" sampledSeconds="90647.98" noise="66.01" traveltime="614.08"/>
+        <edge id="5676234#4" sampledSeconds="85854.64" noise="65.59" traveltime="1113.82"/>
+        <edge id="5676234#5" sampledSeconds="86756.99" noise="65.78" traveltime="787.29"/>
+        <edge id="5676437" sampledSeconds="135210.63" noise="67.42" traveltime="3037.46"/>
+        <edge id="5676884#0" sampledSeconds="110616.67" noise="66.69" traveltime="1457.94"/>
+        <edge id="5676884#1" sampledSeconds="250280.76" noise="70.21" traveltime="2738.17"/>
+        <edge id="5676994#0" sampledSeconds="24879.44" noise="67.04" traveltime="408.04"/>
+        <edge id="5676994#10" sampledSeconds="183205.89" noise="69.02" traveltime="1044.04"/>
+        <edge id="5676994#11" sampledSeconds="174178.98" noise="68.80" traveltime="1051.44"/>
+        <edge id="5676994#12" sampledSeconds="172384.14" noise="68.77" traveltime="1094.79"/>
+        <edge id="5676994#13" sampledSeconds="160510.76" noise="68.39" traveltime="1090.74"/>
+        <edge id="5676994#14" sampledSeconds="152723.18" noise="68.14" traveltime="1142.13"/>
+        <edge id="5676994#2" sampledSeconds="56613.33" noise="63.75" traveltime="407.06"/>
+        <edge id="5676994#3" sampledSeconds="185342.90" noise="68.87" traveltime="1532.47"/>
+        <edge id="5676994#4" sampledSeconds="177363.15" noise="68.70" traveltime="1397.93"/>
+        <edge id="5676994#5" sampledSeconds="182242.35" noise="68.76" traveltime="1694.61"/>
+        <edge id="5676994#6" sampledSeconds="176601.88" noise="69.09" traveltime="825.62"/>
+        <edge id="5676994#7" sampledSeconds="177276.33" noise="69.10" traveltime="803.15"/>
+        <edge id="5676994#8" sampledSeconds="99240.26" noise="66.67" traveltime="439.93"/>
+        <edge id="5676994#9" sampledSeconds="76568.89" noise="65.50" traveltime="353.62"/>
+        <edge id="5677037#0" sampledSeconds="54743.82" noise="63.56" traveltime="1293.95"/>
+        <edge id="5677037#1" sampledSeconds="90668.14" noise="65.88" traveltime="1101.64"/>
+        <edge id="5677037#10" sampledSeconds="91971.82" noise="65.85" traveltime="1166.30"/>
+        <edge id="5677037#11" sampledSeconds="83096.17" noise="65.61" traveltime="795.89"/>
+        <edge id="5677037#12" sampledSeconds="81279.55" noise="65.50" traveltime="593.91"/>
+        <edge id="5677037#13" sampledSeconds="87458.37" noise="65.65" traveltime="923.91"/>
+        <edge id="5677037#14" sampledSeconds="88336.71" noise="65.71" traveltime="1019.24"/>
+        <edge id="5677037#15" sampledSeconds="89357.87" noise="65.77" traveltime="983.04"/>
+        <edge id="5677037#16" sampledSeconds="84802.09" noise="65.54" traveltime="1166.77"/>
+        <edge id="5677037#17" sampledSeconds="1872.36" noise="57.10" traveltime="143.92"/>
+        <edge id="5677037#2" sampledSeconds="86186.48" noise="65.72" traveltime="826.43"/>
+        <edge id="5677037#3" sampledSeconds="85442.08" noise="65.61" traveltime="1063.68"/>
+        <edge id="5677037#4" sampledSeconds="87649.34" noise="65.68" traveltime="1114.12"/>
+        <edge id="5677037#5" sampledSeconds="86124.86" noise="65.62" traveltime="1062.17"/>
+        <edge id="5677037#6" sampledSeconds="80909.70" noise="65.34" traveltime="1057.53"/>
+        <edge id="5677037#7" sampledSeconds="86785.33" noise="65.60" traveltime="1207.38"/>
+        <edge id="5677037#8" sampledSeconds="91900.23" noise="65.84" traveltime="1224.37"/>
+        <edge id="5677037#9" sampledSeconds="85681.21" noise="65.66" traveltime="921.13"/>
+        <edge id="5677430#0" sampledSeconds="258402.83" noise="70.53" traveltime="1641.20"/>
+        <edge id="5677430#1" sampledSeconds="351422.94" noise="71.77" traveltime="1788.84"/>
+        <edge id="5677430#10" sampledSeconds="375435.42" noise="72.00" traveltime="2414.25"/>
+        <edge id="5677430#11" sampledSeconds="952.48" noise="54.25" traveltime="47.45"/>
+        <edge id="5677430#2" sampledSeconds="347444.01" noise="71.78" traveltime="1853.95"/>
+        <edge id="5677430#3" sampledSeconds="311029.54" noise="71.72" traveltime="963.42"/>
+        <edge id="5677430#4" sampledSeconds="439194.66" noise="72.94" traveltime="1311.91"/>
+        <edge id="5677430#5" sampledSeconds="408026.67" noise="72.70" traveltime="1179.63"/>
+        <edge id="5677430#6" sampledSeconds="406868.25" noise="72.46" traveltime="1498.02"/>
+        <edge id="5677430#7" sampledSeconds="322247.27" noise="71.53" traveltime="1343.24"/>
+        <edge id="5677430#8" sampledSeconds="339075.02" noise="71.67" traveltime="1533.21"/>
+        <edge id="5677430#9" sampledSeconds="300221.13" noise="71.15" traveltime="1541.58"/>
+        <edge id="5677818#0" sampledSeconds="84.88" noise="47.92" traveltime="2.87"/>
+        <edge id="5677818#1" sampledSeconds="740.95" noise="53.35" traveltime="67.02"/>
+        <edge id="5677926#0" sampledSeconds="179801.52" noise="68.67" traveltime="3402.18"/>
+        <edge id="5677926#1" sampledSeconds="477.09" noise="51.96" traveltime="67.88"/>
+        <edge id="5678025" sampledSeconds="72604.26" noise="64.82" traveltime="1381.90"/>
+        <edge id="5678026" sampledSeconds="53.25" noise="42.03" traveltime="3.45"/>
+        <edge id="5678147#0" sampledSeconds="393.13" noise="52.28" traveltime="13.15"/>
+        <edge id="5678147#1" sampledSeconds="52.21" noise="42.88" traveltime="2.03"/>
+        <edge id="5678147#2" sampledSeconds="501.75" noise="51.18" traveltime="55.36"/>
+        <edge id="5678215#0" sampledSeconds="292396.41" noise="70.91" traveltime="4495.04"/>
+        <edge id="5678215#1" sampledSeconds="297246.11" noise="70.88" traveltime="3931.96"/>
+        <edge id="5678215#10" sampledSeconds="200594.60" noise="69.13" traveltime="4183.01"/>
+        <edge id="5678215#11" sampledSeconds="241509.91" noise="69.98" traveltime="3741.15"/>
+        <edge id="5678215#2" sampledSeconds="284455.80" noise="70.73" traveltime="3210.57"/>
+        <edge id="5678215#3" sampledSeconds="305431.11" noise="70.98" traveltime="4138.61"/>
+        <edge id="5678215#4" sampledSeconds="291462.01" noise="70.79" traveltime="3806.84"/>
+        <edge id="5678215#5" sampledSeconds="295502.85" noise="70.87" traveltime="3596.82"/>
+        <edge id="5678215#6" sampledSeconds="282238.60" noise="70.65" traveltime="3763.84"/>
+        <edge id="5678215#7" sampledSeconds="288315.00" noise="70.75" traveltime="3837.40"/>
+        <edge id="5678215#8" sampledSeconds="346844.21" noise="71.46" traveltime="6924.47"/>
+        <edge id="5678215#9" sampledSeconds="336090.04" noise="71.38" traveltime="5914.09"/>
+        <edge id="5678359#0" sampledSeconds="78.71" noise="46.67" traveltime="3.60"/>
+        <edge id="5678359#1" sampledSeconds="41.94" noise="41.42" traveltime="6.75"/>
+        <edge id="5678387#0" sampledSeconds="301162.65" noise="71.18" traveltime="4843.70"/>
+        <edge id="5678419" sampledSeconds="160591.67" noise="68.17" traveltime="3069.21"/>
+        <edge id="5678442#0" sampledSeconds="92871.72" noise="65.78" traveltime="2482.21"/>
+        <edge id="5678442#1" sampledSeconds="89358.46" noise="65.67" traveltime="1823.43"/>
+        <edge id="5678442#10" sampledSeconds="60692.03" noise="63.99" traveltime="919.91"/>
+        <edge id="5678442#11" sampledSeconds="39283.65" noise="62.11" traveltime="715.94"/>
+        <edge id="5678442#12" sampledSeconds="90328.55" noise="65.80" traveltime="1165.11"/>
+        <edge id="5678442#13" sampledSeconds="93907.16" noise="65.91" traveltime="1292.26"/>
+        <edge id="5678442#14" sampledSeconds="82321.29" noise="65.47" traveltime="1041.81"/>
+        <edge id="5678442#15" sampledSeconds="88013.85" noise="65.67" traveltime="1181.12"/>
+        <edge id="5678442#16" sampledSeconds="87568.12" noise="65.75" traveltime="960.94"/>
+        <edge id="5678442#17" sampledSeconds="89540.01" noise="65.74" traveltime="1066.95"/>
+        <edge id="5678442#18" sampledSeconds="93991.50" noise="65.90" traveltime="1268.77"/>
+        <edge id="5678442#19" sampledSeconds="76753.23" noise="65.16" traveltime="989.34"/>
+        <edge id="5678442#2" sampledSeconds="91407.92" noise="65.76" traveltime="1760.51"/>
+        <edge id="5678442#20" sampledSeconds="1001.08" noise="54.72" traveltime="62.56"/>
+        <edge id="5678442#3" sampledSeconds="90261.76" noise="65.70" traveltime="1936.53"/>
+        <edge id="5678442#4" sampledSeconds="90054.57" noise="65.74" traveltime="1432.17"/>
+        <edge id="5678442#5" sampledSeconds="90200.97" noise="65.74" traveltime="1409.20"/>
+        <edge id="5678442#6" sampledSeconds="92127.21" noise="65.78" traveltime="1711.40"/>
+        <edge id="5678442#7" sampledSeconds="19346.45" noise="59.17" traveltime="189.74"/>
+        <edge id="5678442#8" sampledSeconds="78206.17" noise="65.16" traveltime="1075.56"/>
+        <edge id="5678442#9" sampledSeconds="91414.73" noise="65.78" traveltime="1439.63"/>
+        <edge id="5678756#0" sampledSeconds="296948.73" noise="71.23" traveltime="4490.35"/>
+        <edge id="5678756#2" sampledSeconds="287446.10" noise="70.69" traveltime="4626.41"/>
+        <edge id="5678756#3" sampledSeconds="216135.79" noise="69.47" traveltime="2990.42"/>
+        <edge id="5678756#4" sampledSeconds="76970.16" noise="64.98" traveltime="1538.21"/>
+        <edge id="5678756#5" sampledSeconds="312171.07" noise="71.00" traveltime="6752.09"/>
+        <edge id="5678756#6" sampledSeconds="274139.22" noise="70.47" traveltime="5634.86"/>
+        <edge id="5678756#7" sampledSeconds="296301.09" noise="70.85" traveltime="4304.43"/>
+        <edge id="5678756#8" sampledSeconds="238988.72" noise="69.96" traveltime="3496.43"/>
+        <edge id="5678756#9" sampledSeconds="277129.25" noise="70.58" traveltime="3457.78"/>
+        <edge id="5679171#0" sampledSeconds="334044.03" noise="71.61" traveltime="4961.19"/>
+        <edge id="5679171#10" sampledSeconds="275420.63" noise="70.57" traveltime="3353.67"/>
+        <edge id="5679171#11" sampledSeconds="310905.61" noise="71.11" traveltime="3003.87"/>
+        <edge id="5679171#12" sampledSeconds="39026.47" noise="62.15" traveltime="499.17"/>
+        <edge id="5679171#4" sampledSeconds="292427.83" noise="70.83" traveltime="3624.12"/>
+        <edge id="5679171#5" sampledSeconds="290871.66" noise="70.82" traveltime="2992.79"/>
+        <edge id="5679171#6" sampledSeconds="308159.09" noise="71.05" traveltime="3274.51"/>
+        <edge id="5679171#7" sampledSeconds="278727.07" noise="70.62" traveltime="3209.02"/>
+        <edge id="5679171#8" sampledSeconds="293211.24" noise="70.82" traveltime="3380.49"/>
+        <edge id="5679171#9" sampledSeconds="262923.76" noise="70.39" traveltime="2987.17"/>
+        <edge id="5679708#0" sampledSeconds="301923.82" noise="70.92" traveltime="5817.46"/>
+        <edge id="5679708#1" sampledSeconds="91388.81" noise="65.77" traveltime="1585.63"/>
+        <edge id="5679708#10" sampledSeconds="86255.34" noise="65.65" traveltime="1006.15"/>
+        <edge id="5679708#11" sampledSeconds="81319.37" noise="65.38" traveltime="988.73"/>
+        <edge id="5679708#12" sampledSeconds="87054.10" noise="65.65" traveltime="1104.30"/>
+        <edge id="5679708#13" sampledSeconds="87506.29" noise="65.69" traveltime="1180.48"/>
+        <edge id="5679708#14" sampledSeconds="87177.80" noise="65.71" traveltime="1034.98"/>
+        <edge id="5679708#15" sampledSeconds="90339.11" noise="65.80" traveltime="1228.94"/>
+        <edge id="5679708#16" sampledSeconds="80381.31" noise="65.43" traveltime="904.94"/>
+        <edge id="5679708#2" sampledSeconds="94316.96" noise="65.85" traveltime="2137.34"/>
+        <edge id="5679708#3" sampledSeconds="93852.57" noise="65.86" traveltime="1729.59"/>
+        <edge id="5679708#4" sampledSeconds="91699.95" noise="65.88" traveltime="920.99"/>
+        <edge id="5679708#5" sampledSeconds="96862.52" noise="66.11" traveltime="1031.16"/>
+        <edge id="5679708#6" sampledSeconds="90383.97" noise="65.98" traveltime="712.48"/>
+        <edge id="5679708#7" sampledSeconds="94632.05" noise="66.02" traveltime="926.14"/>
+        <edge id="5679708#8" sampledSeconds="86848.83" noise="65.62" traveltime="1243.15"/>
+        <edge id="5679708#9" sampledSeconds="88668.14" noise="65.80" traveltime="1037.63"/>
+        <edge id="5679786" sampledSeconds="123820.26" noise="67.08" traveltime="2567.87"/>
+        <edge id="5679790#0" sampledSeconds="308380.24" noise="71.03" traveltime="3722.60"/>
+        <edge id="5679790#1" sampledSeconds="312469.08" noise="71.03" traveltime="4682.79"/>
+        <edge id="5679790#2" sampledSeconds="276777.61" noise="70.58" traveltime="3291.42"/>
+        <edge id="5679790#3" sampledSeconds="300747.07" noise="70.84" traveltime="5721.80"/>
+        <edge id="5679875#0" sampledSeconds="85260.53" noise="65.57" traveltime="1101.38"/>
+        <edge id="5679875#1" sampledSeconds="103344.87" noise="66.31" traveltime="1637.79"/>
+        <edge id="5679892#0" sampledSeconds="297419.86" noise="70.85" traveltime="5030.43"/>
+        <edge id="5679892#1" sampledSeconds="295290.98" noise="70.82" traveltime="4163.20"/>
+        <edge id="5679892#2" sampledSeconds="192587.22" noise="69.10" traveltime="2701.60"/>
+        <edge id="5679892#3" sampledSeconds="274600.05" noise="70.60" traveltime="2699.54"/>
+        <edge id="5679892#4" sampledSeconds="249352.20" noise="70.13" traveltime="3760.81"/>
+        <edge id="5679892#5" sampledSeconds="284951.69" noise="70.73" traveltime="3138.83"/>
+        <edge id="5679892#6" sampledSeconds="130.57" noise="46.01" traveltime="18.52"/>
+        <edge id="5680159#0" sampledSeconds="288008.80" noise="70.75" traveltime="3538.31"/>
+        <edge id="5680159#1" sampledSeconds="181169.04" noise="68.73" traveltime="2954.43"/>
+        <edge id="5680159#2" sampledSeconds="85492.86" noise="65.54" traveltime="1450.26"/>
+        <edge id="5680159#3" sampledSeconds="306836.12" noise="70.95" traveltime="5129.93"/>
+        <edge id="5680159#4" sampledSeconds="278209.32" noise="70.59" traveltime="3822.79"/>
+        <edge id="5680159#5" sampledSeconds="272395.40" noise="70.50" traveltime="3727.05"/>
+        <edge id="5680159#6" sampledSeconds="291081.08" noise="70.78" traveltime="4103.95"/>
+        <edge id="5680159#7" sampledSeconds="781.82" noise="53.87" traveltime="86.82"/>
+        <edge id="5680442#0" sampledSeconds="155597.06" noise="68.13" traveltime="1973.81"/>
+        <edge id="5680442#1" sampledSeconds="223859.85" noise="69.64" traveltime="3093.56"/>
+        <edge id="5680442#10" sampledSeconds="261927.78" noise="70.32" traveltime="4329.53"/>
+        <edge id="5680442#11" sampledSeconds="574.09" noise="52.66" traveltime="55.86"/>
+        <edge id="5680442#2" sampledSeconds="328718.49" noise="71.33" traveltime="4459.73"/>
+        <edge id="5680442#3" sampledSeconds="325347.71" noise="71.29" traveltime="3891.29"/>
+        <edge id="5680442#4" sampledSeconds="298072.88" noise="70.86" traveltime="4478.58"/>
+        <edge id="5680442#5" sampledSeconds="301290.02" noise="70.87" traveltime="5107.15"/>
+        <edge id="5680442#6" sampledSeconds="279980.11" noise="70.59" traveltime="4274.49"/>
+        <edge id="5680442#7" sampledSeconds="309562.21" noise="70.98" traveltime="5892.98"/>
+        <edge id="5680442#8" sampledSeconds="281717.09" noise="70.61" traveltime="4340.88"/>
+        <edge id="5680442#9" sampledSeconds="284811.19" noise="70.67" traveltime="4665.83"/>
+        <edge id="5680703#0" sampledSeconds="329420.10" noise="71.59" traveltime="4805.21"/>
+        <edge id="5680703#5" sampledSeconds="143963.40" noise="67.87" traveltime="1185.44"/>
+        <edge id="5680703#6" sampledSeconds="36906.62" noise="61.95" traveltime="683.71"/>
+        <edge id="5680704" sampledSeconds="39187.96" noise="62.34" traveltime="357.06"/>
+        <edge id="5680742#0" sampledSeconds="290122.38" noise="70.73" traveltime="5492.95"/>
+        <edge id="5680742#1" sampledSeconds="97493.89" noise="66.01" traveltime="1554.93"/>
+        <edge id="5680742#10" sampledSeconds="297317.24" noise="70.89" traveltime="3434.04"/>
+        <edge id="5680742#11" sampledSeconds="141609.58" noise="67.62" traveltime="1955.06"/>
+        <edge id="5680742#12" sampledSeconds="215516.18" noise="69.38" traveltime="4842.47"/>
+        <edge id="5680742#13" sampledSeconds="325018.84" noise="71.25" traveltime="5465.85"/>
+        <edge id="5680742#14" sampledSeconds="201379.87" noise="69.21" traveltime="2993.79"/>
+        <edge id="5680742#15" sampledSeconds="226668.13" noise="69.80" traveltime="2581.40"/>
+        <edge id="5680742#2" sampledSeconds="226520.07" noise="69.56" traveltime="7157.44"/>
+        <edge id="5680742#3" sampledSeconds="308276.03" noise="71.07" traveltime="3070.24"/>
+        <edge id="5680742#4" sampledSeconds="105227.82" noise="66.50" traveltime="936.45"/>
+        <edge id="5680742#5" sampledSeconds="105581.02" noise="66.37" traveltime="1035.68"/>
+        <edge id="5680742#6" sampledSeconds="106484.99" noise="66.48" traveltime="1117.91"/>
+        <edge id="5680742#7" sampledSeconds="311424.43" noise="71.09" traveltime="3456.72"/>
+        <edge id="5680742#8" sampledSeconds="291145.92" noise="70.81" traveltime="3281.22"/>
+        <edge id="5680742#9" sampledSeconds="304420.55" noise="70.92" traveltime="4655.08"/>
+        <edge id="5680992#0" sampledSeconds="133443.83" noise="67.48" traveltime="1854.20"/>
+        <edge id="5680992#1" sampledSeconds="208216.14" noise="69.45" traveltime="1787.62"/>
+        <edge id="5680992#10" sampledSeconds="865.18" noise="53.78" traveltime="78.34"/>
+        <edge id="5680992#2" sampledSeconds="114802.71" noise="66.96" traveltime="1027.26"/>
+        <edge id="5680992#3" sampledSeconds="297131.75" noise="70.84" traveltime="4161.26"/>
+        <edge id="5680992#4" sampledSeconds="296071.93" noise="70.80" traveltime="5168.27"/>
+        <edge id="5680992#5" sampledSeconds="272947.30" noise="70.49" traveltime="4152.98"/>
+        <edge id="5680992#6" sampledSeconds="309716.11" noise="70.98" traveltime="6179.82"/>
+        <edge id="5680992#7" sampledSeconds="278963.00" noise="70.57" traveltime="4464.15"/>
+        <edge id="5680992#8" sampledSeconds="294197.00" noise="70.78" traveltime="5448.74"/>
+        <edge id="5680992#9" sampledSeconds="274176.54" noise="70.51" traveltime="4605.17"/>
+        <edge id="5681207" sampledSeconds="140683.07" noise="67.62" traveltime="2377.09"/>
+        <edge id="5681383#0" sampledSeconds="85675.89" noise="65.52" traveltime="1390.44"/>
+        <edge id="5681383#1" sampledSeconds="286129.11" noise="70.64" traveltime="4888.87"/>
+        <edge id="5681383#10" sampledSeconds="299558.23" noise="70.90" traveltime="3919.83"/>
+        <edge id="5681383#11" sampledSeconds="246884.21" noise="70.05" traveltime="4232.50"/>
+        <edge id="5681383#12" sampledSeconds="125.05" noise="46.41" traveltime="15.33"/>
+        <edge id="5681383#2" sampledSeconds="58449.40" noise="63.96" traveltime="682.74"/>
+        <edge id="5681383#3" sampledSeconds="275167.28" noise="70.53" traveltime="3498.65"/>
+        <edge id="5681383#4" sampledSeconds="153264.68" noise="68.05" traveltime="1746.67"/>
+        <edge id="5681383#5" sampledSeconds="77510.64" noise="65.11" traveltime="954.41"/>
+        <edge id="5681383#6" sampledSeconds="58767.15" noise="63.89" traveltime="844.18"/>
+        <edge id="5681383#7" sampledSeconds="254350.61" noise="70.20" traveltime="4047.02"/>
+        <edge id="5681383#8" sampledSeconds="250267.80" noise="70.16" traveltime="3418.26"/>
+        <edge id="5681383#9" sampledSeconds="234110.82" noise="69.84" traveltime="3978.38"/>
+        <edge id="5681517" sampledSeconds="89659.06" noise="65.72" traveltime="1339.17"/>
+        <edge id="5681568#0" sampledSeconds="325519.05" noise="71.25" traveltime="4842.63"/>
+        <edge id="5681568#1" sampledSeconds="323382.23" noise="71.26" traveltime="4406.30"/>
+        <edge id="5681568#2" sampledSeconds="191402.46" noise="69.01" traveltime="2537.83"/>
+        <edge id="5681568#3" sampledSeconds="229839.85" noise="69.83" traveltime="2772.10"/>
+        <edge id="570156789" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="570156790#1" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="570156791" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="570156795" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="570830660" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="570830662" sampledSeconds="0.00" noise="0.00"/>
+        <edge id="586174692" sampledSeconds="39.70" noise="41.42" traveltime="5.61"/>
+        <edge id="587067519" sampledSeconds="256758.01" noise="70.22" traveltime="4097.15"/>
+        <edge id="587067520#0" sampledSeconds="81471.03" noise="65.40" traveltime="848.59"/>
+        <edge id="587067520#1" sampledSeconds="76154.72" noise="65.09" traveltime="985.53"/>
+        <edge id="587067520#2" sampledSeconds="80299.89" noise="65.48" traveltime="612.68"/>
+        <edge id="587067526#0" sampledSeconds="34776.96" noise="62.25" traveltime="686.37"/>
+        <edge id="587067526#1" sampledSeconds="185241.01" noise="69.38" traveltime="867.57"/>
+        <edge id="587067526#2" sampledSeconds="178741.70" noise="68.89" traveltime="971.90"/>
+        <edge id="587067527#0" sampledSeconds="200204.21" noise="69.17" traveltime="3163.40"/>
+        <edge id="587067527#1" sampledSeconds="141365.62" noise="67.80" traveltime="1460.83"/>
+        <edge id="587067527#2" sampledSeconds="87404.90" noise="65.90" traveltime="691.26"/>
+        <edge id="587067528" sampledSeconds="307151.50" noise="71.05" traveltime="4124.79"/>
+        <edge id="587067529#0" sampledSeconds="138122.65" noise="67.61" traveltime="1532.85"/>
+        <edge id="587067529#1" sampledSeconds="228065.24" noise="69.63" traveltime="4315.29"/>
+        <edge id="587355756" sampledSeconds="184871.31" noise="69.57" traveltime="1043.46"/>
+        <edge id="618977201" sampledSeconds="251.23" noise="45.64" traveltime="27.80"/>
+        <edge id="618977202" sampledSeconds="451.47" noise="47.79" traveltime="49.84"/>
+    </interval>
+</meandata>
