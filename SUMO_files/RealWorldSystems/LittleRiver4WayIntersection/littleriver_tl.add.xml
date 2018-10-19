@@ -13,4 +13,4 @@
 	<edgeData id="Emission Data" type="emissions" file="littleriver_pollution.dump.xml"/>
 	<edgeData id="Noise Data" type="harmonoise" file="littleriver_noise.dump.xml"/>
 	
-/<additional>
+</additional>

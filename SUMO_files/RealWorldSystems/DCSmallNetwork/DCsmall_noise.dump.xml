@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 10/19/18 08:32:54 by Eclipse SUMO GUI Version 1.0.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\isaia\OneDrive\Documents\GitHub\SeniorResearch\SUMO_files\RealWorldSystems\DCSmallNetwork\DCsmall.net.xml"/>
+        <route-files value="C:\Users\isaia\OneDrive\Documents\GitHub\SeniorResearch\SUMO_files\RealWorldSystems\DCSmallNetwork\DCsmall.rou.xml"/>
+        <additional-files value="C:\Users\isaia\OneDrive\Documents\GitHub\SeniorResearch\SUMO_files\RealWorldSystems\DCSmallNetwork\DCsmall_tl.add.xml"/>
+    </input>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="180"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+    <interval begin="0.00" end="233.00" id="Noise Data">
+        <edge id="-231628321" sampledSeconds="37.40" noise="66.16" traveltime="9.15"/>
+        <edge id="-50515734#0" sampledSeconds="41.87" noise="60.19" traveltime="7.90"/>
+        <edge id="-50515734#1" sampledSeconds="117.29" noise="65.74" traveltime="23.47"/>
+        <edge id="-50515736#0" sampledSeconds="382.22" noise="66.30" traveltime="23.35"/>
+        <edge id="-50515736#1" sampledSeconds="108.20" noise="63.03" traveltime="15.48"/>
+        <edge id="-6059020" sampledSeconds="63.55" noise="60.19" traveltime="63.56"/>
+        <edge id="-6061634" sampledSeconds="539.23" noise="67.87" traveltime="90.59"/>
+        <edge id="130714951" sampledSeconds="27.93" noise="65.15" traveltime="3.30"/>
+        <edge id="130714951-AddedOnRampEdge" sampledSeconds="75.86" noise="70.68" traveltime="4.51"/>
+        <edge id="130714953" sampledSeconds="109.13" noise="62.73" traveltime="5.08"/>
+        <edge id="130715044" sampledSeconds="116.77" noise="61.70" traveltime="5.61"/>
+        <edge id="231628321" sampledSeconds="14.40" noise="59.71" traveltime="14.40"/>
+        <edge id="231628322" sampledSeconds="12.56" noise="58.82" traveltime="2.14"/>
+        <edge id="397298730" sampledSeconds="601.52" noise="66.48" traveltime="12.49"/>
+        <edge id="409541710" sampledSeconds="478.07" noise="68.14" traveltime="9.41"/>
+        <edge id="470176875" sampledSeconds="93.70" noise="66.12" traveltime="2.05"/>
+        <edge id="50515731" sampledSeconds="130.39" noise="66.64" traveltime="18.60"/>
+        <edge id="50515732" sampledSeconds="20.54" noise="62.50" traveltime="8.53"/>
+        <edge id="50515734#0" sampledSeconds="180.24" noise="63.74" traveltime="18.64"/>
+        <edge id="50515734#1" sampledSeconds="45.37" noise="66.90" traveltime="8.82"/>
+        <edge id="50515736#0" sampledSeconds="154.47" noise="66.22" traveltime="13.51"/>
+        <edge id="50515736#1" sampledSeconds="21.53" noise="63.33" traveltime="4.04"/>
+        <edge id="589551003" sampledSeconds="61.85" noise="63.65" traveltime="1.97"/>
+        <edge id="6054631" sampledSeconds="77.53" noise="66.35" traveltime="11.02"/>
+        <edge id="6054631-AddedOffRampEdge" sampledSeconds="139.88" noise="68.76" traveltime="7.85"/>
+        <edge id="6056826" sampledSeconds="47.27" noise="63.19" traveltime="4.50"/>
+        <edge id="6059020" sampledSeconds="241.07" noise="64.91" traveltime="67.55"/>
+        <edge id="6061634" sampledSeconds="134.65" noise="62.46" traveltime="68.51"/>
+        <edge id="6062713" sampledSeconds="66.58" noise="66.76" traveltime="3.26"/>
+        <edge id="6280746" sampledSeconds="117.70" noise="65.04" traveltime="12.55"/>
+        <edge id="6672155" sampledSeconds="30.89" noise="62.61" traveltime="0.32"/>
+        <edge id="gneE5" sampledSeconds="133.60" noise="57.63" traveltime="22.48"/>
+    </interval>
+</meandata>
