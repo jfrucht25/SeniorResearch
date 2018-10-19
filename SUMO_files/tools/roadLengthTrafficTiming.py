@@ -6,7 +6,7 @@ parser.add_argument("-n", "--network", help="input the filename of the network")
 parser.add_argument("-a", "--add", help="input the filename of the add file containing the traffic light data")
 parser.add_argument("-o", "--output", help="input the name of the output file")
 parser.add_argument("-c", "--cycle_length ", help="Optional: desired length of light cycle", default=-1)
-#TODO: add optional weight argument that is multiplied with the max time taken
+# TODO: add optional weight argument that is multiplied with the max time taken
 
 args = parser.parse_args()
 netTree = eleTree.parse(args.network)
@@ -36,8 +36,9 @@ for l in lights:
         # take a car to travel that length(length/speed). Set duration to max time
         time_taken_greens = [edges[edge]["length"]/edges[edge]["speed"] for edge in green_connects]
         phase["duration"] = max(time_taken_greens)
-#TODO: If args.c is not -1, scale duration proportionally
-#TODO: handle yellow phases (if yellow set small duration) but take args.c into account
+# TODO: If args.c is not -1, scale duration proportionally
+
+# TODO: handle yellow phases (if yellow set small duration) but take args.c into account
 print(edges)
 print(lights)
 

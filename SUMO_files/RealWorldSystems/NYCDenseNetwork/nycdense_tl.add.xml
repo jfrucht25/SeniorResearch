@@ -403,10 +403,7 @@
         <phase duration="6"  state="rrrryyyyrrrr"/>
     </tlLogic>
 	<edgeData id="Traffic Measures" file="nycdense_traffic.dump.xml"/>
-<<<<<<< HEAD
 	<edgeData id="Emission Data" type="emissions" freq="20" file="nycdense_pollution.dump.xml"/>
-=======
 	<edgeData id="Emission Data" type="emissions" file="nycdense_pollution.dump.xml"/>
->>>>>>> 6f73fa8d8cc7ebd9b78e3841f97a5e547b196ceb
 	<edgeData id="Noise Data" type="harmonoise" file="nycdense_noise.dump.xml"/>
 </additional>
