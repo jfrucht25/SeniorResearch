@@ -9,8 +9,8 @@
 		<phase duration="6" state="rrrrrrrrGGrrrr" minDur="5" maxDur="50"/>
 		<phase duration="6" state="rrrrrrrryyrrrr"/>
 	</tlLogic>
-	<edgeData id="Traffic Measures" file="littleriver_traffic.dump.xml"/>
-	<edgeData id="Emission Data" type="emissions" file="littleriver_pollution.dump.xml"/>
-	<edgeData id="Noise Data" type="harmonoise" file="littleriver_noise.dump.xml"/>
+	<edgeData id="Traffic Measures" freq="20" file="littleriver_traffic.dump.xml"/>
+	<edgeData id="Emission Data" type="emissions" freq="20" file="littleriver_pollution.dump.xml"/>
+	<edgeData id="Noise Data" type="harmonoise" freq="20" file="littleriver_noise.dump.xml"/>
 	
 </additional>

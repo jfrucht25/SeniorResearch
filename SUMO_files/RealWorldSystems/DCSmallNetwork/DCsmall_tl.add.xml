@@ -56,7 +56,7 @@
         <phase duration="6"  state="yyyy"/>
         <phase duration="5"  state="rrrr"/>
     </tlLogic>
-	<edgeData id="Traffic Measures" file="DCsmall_traffic.dump.xml"/>
-	<edgeData id="Emission Data" type="emissions" file="DCsmall_pollution.dump.xml"/>
-	<edgeData id="Noise Data" type="harmonoise" file="DCsmall_noise.dump.xml"/>
+	<edgeData id="Traffic Measures" freq="20" file="DCsmall_traffic.dump.xml"/>
+	<edgeData id="Emission Data" type="emissions" freq="20" file="DCsmall_pollution.dump.xml"/>
+	<edgeData id="Noise Data" type="harmonoise" freq="20" file="DCsmall_noise.dump.xml"/>
 </additional>
