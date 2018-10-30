@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 10/19/18 09:49:21 by Eclipse SUMO GUI Version 1.0.0
+<!-- generated on Fri 26 Oct 2018 09:40:49 AM EDT by SUMO gui Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="C:\Users\isaia\OneDrive\Documents\GitHub\SeniorResearch\SUMO_files\RealWorldSystems\LittleRiver4WayIntersection\littleriver.net.xml"/>
-        <route-files value="C:\Users\isaia\OneDrive\Documents\GitHub\SeniorResearch\SUMO_files\RealWorldSystems\LittleRiver4WayIntersection\littleriver.rou.xml"/>
-        <additional-files value="C:\Users\isaia\OneDrive\Documents\GitHub\SeniorResearch\SUMO_files\RealWorldSystems\LittleRiver4WayIntersection\littleriver_tl.add.xml"/>
+        <net-file value="RealWorldSystems/LittleRiver4WayIntersection/littleriver.net.xml"/>
+        <route-files value="RealWorldSystems/LittleRiver4WayIntersection/littleriver.rou.xml"/>
+        <additional-files value="RealWorldSystems/LittleRiver4WayIntersection/littleriver_tl.add.xml"/>
     </input>
 
     <processing>
@@ -23,28 +25,12 @@
         <no-step-log value="true"/>
     </report>
 
+    <traci_server>
+        <remote-port value="39549"/>
+    </traci_server>
+
 </configuration>
 -->
 
 <meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
-    <interval begin="0.00" end="351.00" id="Noise Data">
-        <edge id="-468510415#0" sampledSeconds="91.95" noise="64.23" traveltime="2.16"/>
-        <edge id="-468510415#1" sampledSeconds="151.29" noise="65.95" traveltime="2.80"/>
-        <edge id="-468510417#1" sampledSeconds="756.32" noise="63.32" traveltime="43.14"/>
-        <edge id="-590842388#0" sampledSeconds="145.67" noise="64.36" traveltime="7.36"/>
-        <edge id="-gneE0" sampledSeconds="55.21" noise="61.80" traveltime="2.52"/>
-        <edge id="319330145#1" sampledSeconds="220.09" noise="68.87" traveltime="8.93"/>
-        <edge id="468510415#1" sampledSeconds="1107.66" noise="66.02" traveltime="17.50"/>
-        <edge id="468510417#1" sampledSeconds="54.11" noise="64.25" traveltime="2.14"/>
-        <edge id="468510427#0" sampledSeconds="877.29" noise="62.91" traveltime="56.58"/>
-        <edge id="526618854#0" sampledSeconds="0.00" noise="0.00"/>
-        <edge id="526618854#1" sampledSeconds="0.00" noise="0.00"/>
-        <edge id="526618856#0" sampledSeconds="0.00" noise="0.00"/>
-        <edge id="526618859#0" sampledSeconds="0.00" noise="0.00"/>
-        <edge id="526618859#2" sampledSeconds="0.00" noise="0.00"/>
-        <edge id="526618861#0" sampledSeconds="0.00" noise="0.00"/>
-        <edge id="590842388#0" sampledSeconds="242.21" noise="66.48" traveltime="11.12"/>
-        <edge id="590842388#1" sampledSeconds="378.41" noise="63.27" traveltime="7.56"/>
-        <edge id="gneE0" sampledSeconds="674.70" noise="64.19" traveltime="26.06"/>
-    </interval>
 </meandata>

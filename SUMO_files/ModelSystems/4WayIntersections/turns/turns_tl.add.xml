@@ -8,8 +8,4 @@
 	<edgeData id="Traffic Measures" file="turns_traffic.dump.xml"/>
 	<edgeData id="Emission Data" type="emissions" file="turns_pollution.dump.xml"/>
 	<edgeData id="Noise Data" type="harmonoise" file="turns_noise.dump.xml"/>
-<<<<<<< HEAD
 </additional>
-=======
-</additional>
->>>>>>> 6f73fa8d8cc7ebd9b78e3841f97a5e547b196ceb
