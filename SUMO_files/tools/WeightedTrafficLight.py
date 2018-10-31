@@ -1,8 +1,6 @@
 import os
 import sys
-import traci
 import argparse
-from sumolib import checkBinary
 def average(in_list):
     return sum(in_list)/len(in_list) if in_list else 0
 if 'SUMO_HOME' in os.environ:
@@ -10,6 +8,10 @@ if 'SUMO_HOME' in os.environ:
     sys.path.append(tools)
 else:
     sys.exit("please declare environment variable 'SUMO_HOME'")
+
+import traci
+from sumolib import checkBinary
+
 
 parser = argparse.ArgumentParser(description="Create traffic light timings based on road lengths")
 parser.add_argument("-s", "--sumocfg", help="input the filename of the SUMO config file")
