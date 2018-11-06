@@ -21,7 +21,7 @@ netTree = eleTree.parse(args.network)
 netRoot = netTree.getroot()
 edges = {}  # dictionary of id -> junction info,  lane length, and speed; use network to get
 lights = {}  # dictionary of id -> list of [state, length of phases]
-connections = {} # dictionary of from edge -> to list of [edges, traffic lights, link indices]
+connections = {}  # dictionary of from edge -> to list of [edges, traffic lights, link indices]
 for obj in netRoot:
     if obj.tag == "edge" and "function" not in obj.attrib.keys():
         edges[obj.attrib["id"]] = {"from": obj.attrib["from"], "to": obj.attrib["to"],
