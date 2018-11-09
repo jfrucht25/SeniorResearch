@@ -30,6 +30,7 @@ parser.add_argument("--no-red-lane-check", default=False, action="store_true", h
                                                        " program does not look at red lanes to determine switch times")
 parser.add_argument("-w", "--weight", type=int, default=default_weight, help="Optional: %d by default, each car in  a lane represents "
                                                        "this many seconds to the light." % default_weight)
+parser.add_argument("--verbose", action="store_true", default=False, help="Use for more print statements")
 
 
 args = parser.parse_args()
@@ -68,7 +69,7 @@ while traci.simulation.getMinExpectedNumber() > 0:
         num_vehicles = {}
         for lane_id in traci.trafficlight.getControlledLanes(light_id):
             num_vehicles[lane_id] = traci.lane.getSubscriptionResults(lane_id)[traci.constants.LAST_STEP_VEHICLE_NUMBER]
-        print("\n")
+        #print("\n")
         #print("Current traffic state: ", traci.trafficlight.getRedYellowGreenState(light_id))
         #print(lane_indices[light_id])
         #print("Controlled lanes: ", traci.trafficlight.getControlledLanes(light_id))
@@ -85,8 +86,7 @@ while traci.simulation.getMinExpectedNumber() > 0:
                     cars_in_green[lane] = num_vehicles[lane]
                 elif traci.trafficlight.getRedYellowGreenState(light_id)[link] in "Rr":
                     cars_in_red[lane] = num_vehicles[lane]
-        print("Cars in green: ", cars_in_green)
-        print("Cars in red: ", cars_in_red)
+
         
         current_wait[light_id] += 1
         if current_wait[light_id] > args.min_wait:
@@ -114,10 +114,12 @@ while traci.simulation.getMinExpectedNumber() > 0:
         else:
             new_duration = traci.trafficlight.getPhaseDuration(light_id)
             reason = "the min duration has not been met"
-
-        print("New duration set to %d because %s" % (new_duration, reason))
+        if args.verbose:
+            print("Cars in green: ", cars_in_green)
+            print("Cars in red: ", cars_in_red)
+            print("New duration set to %d because %s" % (new_duration, reason))
         traci.trafficlight.setPhaseDuration(light_id, new_duration)
 
-    print("\n".join(["%s cars in lane %s" % (num_vehicles[k], k) for k in num_vehicles.keys()]))
+    #print("\n".join(["%s cars in lane %s" % (num_vehicles[k], k) for k in num_vehicles.keys()]))
     print("-------STEP %d OVER-------" % step)
 traci.close()
