@@ -16,6 +16,42 @@ else:
 import traci
 from sumolib import checkBinary
 
+
+def calc_cars_in_red_green(cars_in_lanes_dict, light):
+    green = {}
+    red = {}
+    for l in cars_in_lanes_dict.keys():
+        for link in lane_indices[light][l]:
+            if traci.trafficlight.getRedYellowGreenState(light)[link] in "Gg":
+                green[l] = cars_in_lanes_dict[l]
+            elif traci.trafficlight.getRedYellowGreenState(light)[link] in "Rr":
+                red[l] = cars_in_lanes_dict[l]
+    return green, red
+
+
+def calculate_links():
+    to_ret = {}
+    for l in traci.trafficlight.getIDList():
+        temp_dict = {}
+        print("ALL LINKS: ", traci.trafficlight.getControlledLinks(l))
+        print("ALL LANES: ", traci.trafficlight.getControlledLanes(l))
+        print("-------------------------------------------------------------")
+        for index, lane in enumerate(traci.trafficlight.getControlledLanes(l)):
+            if lane in temp_dict:
+                temp_dict[lane].append(index)
+            else:
+                temp_dict[lane] = [index]
+        if temp_dict:
+            to_ret[l] = temp_dict
+    return to_ret
+
+
+def create_subscribers():
+    for light in traci.trafficlight.getIDList():
+        for lane in traci.trafficlight.getControlledLanes(light):
+            traci.lane.subscribe(lane, [traci.constants.LAST_STEP_VEHICLE_NUMBER])
+
+
 default_max_wait = 30
 default_min_wait = 5
 default_weight = 10
@@ -42,26 +78,12 @@ sumoCmd = [sumoBinary, "-c", args.sumocfg]
 traci.start(sumoCmd)
 step = 0
 
-lane_indices = {}
-print("Building lane indices")
-for light_id in traci.trafficlight.getIDList():
-    num_vehicles = {}
-    for lane_id in traci.trafficlight.getControlledLanes(light_id):
-        traci.lane.subscribe(lane_id, [traci.constants.LAST_STEP_VEHICLE_NUMBER])
-for light_id in traci.trafficlight.getIDList():
-    temp_dict = {}
-    print("ALL LINKS: ", traci.trafficlight.getControlledLinks(light_id))
-    print("ALL LANES: ", traci.trafficlight.getControlledLanes(light_id))
-    print("-------------------------------------------------------------")
-    for index, lane in enumerate(traci.trafficlight.getControlledLanes(light_id)):
-        if lane in temp_dict:
-            temp_dict[lane].append(index)
-        else:
-            temp_dict[lane] = [index]
-    if temp_dict:
-        lane_indices[light_id] = temp_dict
-print(lane_indices)
+lane_indices = calculate_links()
+
+create_subscribers()
+
 current_wait = {light_id: 0 for light_id in traci.trafficlight.getIDList()}
+
 while traci.simulation.getMinExpectedNumber() > 0:
     traci.simulationStep()
     step += 1
@@ -69,25 +91,9 @@ while traci.simulation.getMinExpectedNumber() > 0:
         num_vehicles = {}
         for lane_id in traci.trafficlight.getControlledLanes(light_id):
             num_vehicles[lane_id] = traci.lane.getSubscriptionResults(lane_id)[traci.constants.LAST_STEP_VEHICLE_NUMBER]
-        #print("\n")
-        #print("Current traffic state: ", traci.trafficlight.getRedYellowGreenState(light_id))
-        #print(lane_indices[light_id])
-        #print("Controlled lanes: ", traci.trafficlight.getControlledLanes(light_id))
-        #print("Controlled links: ", traci.trafficlight.getControlledLinks(light_id))
-        #print(traci.trafficlight.getPhase(light_id))
-        #print("Vehicle numbers: ", num_vehicles)
-        #print(lane_indices[light_id])
 
-        cars_in_green = {}
-        cars_in_red = {}
-        for lane in num_vehicles.keys():
-            for link in lane_indices[light_id][lane]:
-                if traci.trafficlight.getRedYellowGreenState(light_id)[link] in "Gg":
-                    cars_in_green[lane] = num_vehicles[lane]
-                elif traci.trafficlight.getRedYellowGreenState(light_id)[link] in "Rr":
-                    cars_in_red[lane] = num_vehicles[lane]
+        cars_in_green, cars_in_red = calc_cars_in_red_green(num_vehicles, light_id)
 
-        
         current_wait[light_id] += 1
         if current_wait[light_id] > args.min_wait:
             if current_wait[light_id] > args.max_wait and sum(cars_in_red.values()) > 0:
@@ -119,7 +125,5 @@ while traci.simulation.getMinExpectedNumber() > 0:
             print("Cars in red: ", cars_in_red)
             print("New duration set to %d because %s" % (new_duration, reason))
         traci.trafficlight.setPhaseDuration(light_id, new_duration)
-
-    #print("\n".join(["%s cars in lane %s" % (num_vehicles[k], k) for k in num_vehicles.keys()]))
     print("-------STEP %d OVER-------" % step)
 traci.close()
