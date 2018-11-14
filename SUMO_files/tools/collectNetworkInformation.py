@@ -1,5 +1,5 @@
 """
-Set information about roads, intersections, what vehicles are on the roads, and avg wait time
+Get information about roads, intersections, what vehicles are on the roads, and avg wait time
 """
 
 import argparse
@@ -56,5 +56,5 @@ if args.t:
     if vaporized_num:
         print("CRITICAL PROBLEM: %d cars had to be teleported" % vaporized_num)
     print("Average waiting time: %f seconds" % (wait_sum/trip_num))
-    print("Average waiting time: %d seconds" % wait_max)
+    print("Maximum waiting time: %d seconds" % wait_max)
 

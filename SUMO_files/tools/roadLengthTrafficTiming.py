@@ -1,6 +1,9 @@
 import argparse
 import xml.etree.cElementTree as eleTree
-
+"""
+Create traffic light timings based off road lengths. The average speed is used to calculate how long
+cars will take to travel the length of the road and to set timings.
+"""
 
 def average(in_list):
     return sum(in_list)/len(in_list)
