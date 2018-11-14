@@ -75,6 +75,7 @@ if args.gui:
 else:
     sumoBinary = checkBinary('sumo')
 sumoCmd = [sumoBinary, "-c", args.sumocfg, "--duration-log.statistics"]
+
 traci.start(sumoCmd)
 step = 0
 
