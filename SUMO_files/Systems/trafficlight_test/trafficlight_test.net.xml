@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 11/19/18 10:12:49 by Eclipse SUMO netedit Version 1.0.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <output>
+        <output-file value="C:\Users\isaia\OneDrive\Documents\GitHub\SeniorResearch\SUMO_files\tools\trafficlight_test.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+</configuration>
+-->
+
+<net version="1.0" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,150.00,0.00" origBoundary="10000000000.00,10000000000.00,-10000000000.00,-10000000000.00" projParameter="!"/>
+
+    <edge id=":east_light_0" function="internal">
+        <lane id=":east_light_0_0" index="0" speed="13.89" length="0.10" shape="100.00,1.60 100.00,1.60"/>
+    </edge>
+    <edge id=":east_light_1" function="internal">
+        <lane id=":east_light_1_0" index="0" speed="13.89" length="0.10" shape="100.00,-1.60 100.00,-1.60"/>
+    </edge>
+    <edge id=":west_light_0" function="internal">
+        <lane id=":west_light_0_0" index="0" speed="13.89" length="0.10" shape="50.00,1.60 50.00,1.60"/>
+    </edge>
+    <edge id=":west_light_1" function="internal">
+        <lane id=":west_light_1_0" index="0" speed="13.89" length="0.10" shape="50.00,-1.60 50.00,-1.60"/>
+    </edge>
+
+    <edge id="EW_1" from="east_endpoint" to="east_light" priority="-1">
+        <lane id="EW_1_0" index="0" speed="13.89" length="50.00" shape="150.00,1.60 100.00,1.60"/>
+    </edge>
+    <edge id="EW_2" from="east_light" to="west_light" priority="-1">
+        <lane id="EW_2_0" index="0" speed="13.89" length="50.00" shape="100.00,1.60 50.00,1.60"/>
+    </edge>
+    <edge id="EW_3" from="west_light" to="west_endpoint" priority="-1">
+        <lane id="EW_3_0" index="0" speed="13.89" length="50.00" shape="50.00,1.60 0.00,1.60"/>
+    </edge>
+    <edge id="gneE10" from="east_light" to="east_endpoint" priority="-1">
+        <lane id="gneE10_0" index="0" speed="13.89" length="50.00" shape="100.00,-1.60 150.00,-1.60"/>
+    </edge>
+    <edge id="gneE8" from="west_endpoint" to="west_light" priority="-1">
+        <lane id="gneE8_0" index="0" speed="13.89" length="50.00" shape="0.00,-1.60 50.00,-1.60"/>
+    </edge>
+    <edge id="gneE9" from="west_light" to="east_light" priority="-1">
+        <lane id="gneE9_0" index="0" speed="13.89" length="50.00" shape="50.00,-1.60 100.00,-1.60"/>
+    </edge>
+
+    <tlLogic id="gneJ13" type="static" programID="0" offset="0">
+        <phase duration="82" state="GG"/>
+        <phase duration="3"  state="yy"/>
+        <phase duration="5"  state="rr"/>
+    </tlLogic>
+    <tlLogic id="gneJ13" type="static" programID="1" offset="0">
+        <phase duration="82" state="GG"/>
+        <phase duration="3"  state="yy"/>
+        <phase duration="5"  state="rr"/>
+    </tlLogic>
+    <tlLogic id="gneJ14" type="static" programID="0" offset="0">
+        <phase duration="82" state="GG"/>
+        <phase duration="3"  state="yy"/>
+        <phase duration="5"  state="rr"/>
+    </tlLogic>
+
+    <junction id="east_endpoint" type="dead_end" x="150.00" y="0.00" incLanes="gneE10_0" intLanes="" shape="150.00,0.00 150.00,-3.20 150.00,0.00"/>
+    <junction id="east_light" type="traffic_light" x="100.00" y="0.00" incLanes="EW_1_0 gneE9_0" intLanes=":east_light_0_0 :east_light_1_0" shape="100.00,3.20 100.00,-3.20 100.00,3.20">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="west_endpoint" type="dead_end" x="0.00" y="0.00" incLanes="EW_3_0" intLanes="" shape="0.00,0.00 0.00,3.20 0.00,0.00"/>
+    <junction id="west_light" type="traffic_light" x="50.00" y="0.00" incLanes="EW_2_0 gneE8_0" intLanes=":west_light_0_0 :west_light_1_0" shape="50.00,3.20 50.00,-3.20 50.00,3.20">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+
+    <connection from="EW_1" to="EW_2" fromLane="0" toLane="0" via=":east_light_0_0" tl="gneJ14" linkIndex="0" dir="s" state="O"/>
+    <connection from="EW_2" to="EW_3" fromLane="0" toLane="0" via=":west_light_0_0" tl="gneJ13" linkIndex="0" dir="s" state="O"/>
+    <connection from="gneE8" to="gneE9" fromLane="0" toLane="0" via=":west_light_1_0" tl="gneJ13" linkIndex="1" dir="s" state="O"/>
+    <connection from="gneE9" to="gneE10" fromLane="0" toLane="0" via=":east_light_1_0" tl="gneJ14" linkIndex="1" dir="s" state="O"/>
+
+    <connection from=":east_light_0" to="EW_2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":east_light_1" to="gneE10" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":west_light_0" to="EW_3" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":west_light_1" to="gneE9" fromLane="0" toLane="0" dir="s" state="M"/>
+
+</net>
