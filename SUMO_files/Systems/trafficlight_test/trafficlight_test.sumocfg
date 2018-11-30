@@ -6,9 +6,8 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="2way.net.xml"/>
-        <route-files value="2way.rou.xml"/>
-		<additional-files value="2way_tl.add.xml"/>
+        <net-file value="trafficlight_test.net.xml"/>
+        <route-files value="trafficlight_test.rou.xml"/>
     </input>
 
     <processing>
