@@ -16,6 +16,17 @@ else:
 import traci
 from sumolib import checkBinary
 
+# decorater used to block function printing to the console
+def blockPrinting(func):
+    def func_wrapper(*args, **kwargs):
+        # block all printing to the console
+        sys.stdout = open(os.devnull, 'w')
+        # call the method in question
+        func(*args, **kwargs)
+        # enable all printing to the console
+        sys.stdout = sys.__stdout__
+
+    return func_wrapper
 
 class TrafficController:
     def __init__(self, args):
@@ -154,29 +165,29 @@ class TrafficController:
         return step
 
 
-default_max_wait = 30
-default_min_wait = 5
-default_weight = 10
-default_incoming_weight = 1
+default_max_wait = [30]
+default_min_wait = [5]
+default_weight = 10.0
+default_incoming_weight = 1.0
 parser = argparse.ArgumentParser(description="Create traffic light timings based on cars in the lanes")
 parser.add_argument("-s", "--sumocfg", help="input the filename of the SUMO config file")
 parser.add_argument("--gui", default=False, action="store_true", help="Optional: False by default, use for GUI")
 parser.add_argument("--max-wait", type=int, default=default_max_wait, nargs='*',
                     help="Optional: %d by default, maximum time before mandatory phase change. Input two values for a "
-                         "range" % default_max_wait)
+                         "range" % default_max_wait[0])
 parser.add_argument("--min-wait", type=int, default=default_min_wait, nargs='*',
                     help="Optional: %d by default, minimum time before phase can change. Input two values for a range"
-                         % default_min_wait)
+                         % default_min_wait[0])
 parser.add_argument("--use-lane-max", default=False, action="store_true", help="Optional: False by default. If true, "
                                                                                "traffic light looks at lane with most "
                                                                                "cars when determining timings")
 parser.add_argument("--no-red-lane-check", default=False, action="store_true",
                     help="Optional: False by default, if true"
                          " program does not look at red lanes to determine switch times")
-parser.add_argument("-w", "--weight", type=int, default=default_weight,
-                    help="Optional: %d by default, each car in  a lane represents "
+parser.add_argument("-w", "--weight", type=float, default=default_weight,
+                    help="Optional: %f by default, each car in  a lane represents "
                          "this many seconds to the light." % default_weight)
-parser.add_argument("--incoming-weight", type=int, default=default_incoming_weight, help="Optional: %d by default, "
+parser.add_argument("--incoming-weight", type=float, default=default_incoming_weight, help="Optional: %f by default, "
                                                                                          "each car coming from another "
                                                                                          "light represents this many "
                                                                                          "seconds." %
@@ -185,30 +196,41 @@ parser.add_argument("--verbose", action="store_true", default=False, help="Use f
 
 args = parser.parse_args()
 print(vars(args))
+
 if args.gui:
     sumoBinary = checkBinary('sumo-gui')
 else:
     sumoBinary = checkBinary('sumo')
+new_args = vars(args).copy()
+args.max_wait = sorted(args.max_wait)
+args.min_wait = sorted(args.min_wait)
+if args.min_wait[-1] > args.max_wait[0]:
+    parser.error("min_wait cannot be greater than max_wait")
+if args.min_wait[0] < 0:
+    parser.error("min_wait cannot be below 0")
+if args.max_wait[0] < 0:
+    parser.error("max_wait cannot be below 0")
+if args.weight < 0:
+    parser.error("weight cannot be below 0")
+if args.incoming_weight < 0:
+    parser.error("incoming_weight cannot be below 0")
 
-
-
-if len(args.max_wait) > 1 or len(args.min_wait) > 1:
-    new_args = vars(args).copy()
-    for max_wait in range(args.max_wait[0], args.max_wait[1]):
-        for min_wait in range(args.min_wait[0], args.min_wait[1]):
-            sumoCmd = [sumoBinary, "-c", args.sumocfg, "--duration-log.statistics"]
-            traci.start(sumoCmd)
-            new_args["max_wait"] = max_wait
-            new_args["min_wait"] = min_wait
-            controller = TrafficController(new_args)
-            steps_taken = controller.simulate()
-            print("Minimum waiting time: %d" % min_wait)
-            print("Minimum waiting time: %d" % max_wait)
-            print("Steps required to complete: %d" % steps_taken)
-            traci.close()
-else:
-    sumoCmd = [sumoBinary, "-c", args.sumocfg, "--duration-log.statistics"]
-    traci.start(sumoCmd)
-    controller = TrafficController(vars(args))
-    steps_taken = controller.simulate()
+summary = []
+for max_wait in range(args.max_wait[0], args.max_wait[-1] + 1):
+    for min_wait in range(args.min_wait[0], args.min_wait[-1] + 1):
+        sumoCmd = [sumoBinary, "-c", args.sumocfg, "--duration-log.statistics"]
+        traci.start(sumoCmd)
+        new_args["max_wait"] = max_wait
+        new_args["min_wait"] = min_wait
+        controller = TrafficController(new_args)
+        steps_taken = controller.simulate()
+        summary.append((min_wait, max_wait, steps_taken))
+        print("Minimum waiting time: %d" % min_wait)
+        print("Minimum waiting time: %d" % max_wait)
+        print("Steps required to complete: %d" % steps_taken)
+        traci.close()
+for tup in summary:
+    print("Minimum waiting time: %d" % tup[0])
+    print("Minimum waiting time: %d" % tup[1])
+    print("Steps required to complete: %d" % tup[2])
 traci.close()
