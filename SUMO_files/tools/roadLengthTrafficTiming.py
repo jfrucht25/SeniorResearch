@@ -13,10 +13,10 @@ parser = argparse.ArgumentParser(description="Create traffic light timings based
 parser.add_argument("-n", "--network", help="input the filename of the network")
 parser.add_argument("-a", "--additional-file", help="input the filename of the add file containing the traffic light data")
 parser.add_argument("-o", "--output", help="input the name of the output file")
-parser.add_argument("-c", "--cycle-length", help="Optional: desired length of light cycle", default=-1)
-parser.add_argument("-m", "--multiplier", help="Optional: multiplier for traffic light (roughly the number of cars "
+parser.add_argument("-c", "--cycle-length", type=int, help="Optional: desired length of light cycle", default=-1)
+parser.add_argument("-m", "--multiplier", type=int, help="Optional: multiplier for traffic light (roughly the number of cars "
                                                "that should be able to travel the road completely)", default=1)
-parser.add_argument("-y", "--yellow-length", help="Optional: length of a yellow cycle", default=3)
+parser.add_argument("-y", "--yellow-length", type=int, help="Optional: length of a yellow cycle", default=3)
 # TODO: add optional weight argument that is multiplied with the max time taken
 
 args = parser.parse_args()
@@ -46,7 +46,7 @@ and left turns. Pedestrian crossings are always assigned at the very end, also i
 for l in lights:
     # print(l)
     for phase in lights[l]:
-        if "g" in phase["state"] or "G" in phase["state"]:
+        if max(phase["state"].count("g"), phase["state"].count("G")) > max(phase["state"].count("y"), phase["state"].count("Y")):
             # print(phase["state"])
             greens = [i for i, v in enumerate(phase["state"]) if v in "Gg"] # indices of green links, use them with connections to determine length of this phase
             green_connects = {traffic_id for traffic_id in connections for destination in connections[traffic_id]
@@ -66,7 +66,7 @@ if int(args.cycle_length) != -1:
         for phase in lights[l]:
             phase["duration"] = phase["duration"] / sumPhases * int(args.cycle_length)
 
-# TODO: build new add file using timings decided from
+# TODO: build new add file using timings decided from DONE
 add_tree = eleTree.parse(args.additional_file)
 add_root = add_tree.getroot()
 for light in add_root.findall("tlLogic"):
