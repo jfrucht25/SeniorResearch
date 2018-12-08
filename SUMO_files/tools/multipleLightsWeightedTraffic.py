@@ -161,7 +161,7 @@ class TrafficController:
                         # for each lane, add number of cars in that lane over total links out from that lane
                         # assumes that cars in a lane equally split between possible lane destinations
 
-            print("-------STEP %d OVER-------" % step)
+            #print("-------STEP %d OVER-------" % step)
         return step
 
 
@@ -204,6 +204,8 @@ else:
 new_args = vars(args).copy()
 args.max_wait = sorted(args.max_wait)
 args.min_wait = sorted(args.min_wait)
+if not args.sumocfg or ".sumocfg" not in args.sumocfg:
+    parser.error("You must provide a .sumocfg file")
 if args.min_wait[-1] > args.max_wait[0]:
     parser.error("min_wait cannot be greater than max_wait")
 if args.min_wait[0] < 0:
@@ -226,7 +228,7 @@ for max_wait in range(args.max_wait[0], args.max_wait[-1] + 1):
         steps_taken = controller.simulate()
         summary.append((min_wait, max_wait, steps_taken))
         print("Minimum waiting time: %d" % min_wait)
-        print("Minimum waiting time: %d" % max_wait)
+        print("Maximum waiting time: %d" % max_wait)
         print("Steps required to complete: %d" % steps_taken)
         traci.close()
 for tup in summary:
