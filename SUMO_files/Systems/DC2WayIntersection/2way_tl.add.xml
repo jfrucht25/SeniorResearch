@@ -1,11 +1,11 @@
 <additional>
-	<tlLogic id="49765167" type="static" programID="custom" offset="0">
-		<phase duration="39" state="GGGrrrGG"/>
-		<phase duration="6" state="yyyrrryy"/>
-		<phase duration="39" state="rrrGGGrr"/>
-		<phase duration="6" state="rrryyyrr"/>
+	<tlLogic id="49765167" offset="0" programID="custom" type="static">
+		<phase duration="30.157" state="GGGrrrGG" />
+		<phase duration="0.969" state="yyyrrryy" />
+		<phase duration="27.905" state="rrrGGGrr" />
+		<phase duration="0.969" state="rrryyyrr" />
 	</tlLogic>
-	<edgeData id="Traffic Measures" freq="20" file="2way_traffic.dump.xml"/>
-	<edgeData id="Emission Data" type="emissions" freq="20" file="2way_pollution.dump.xml"/>
-	<edgeData id="Noise Data" type="harmonoise" freq="20" file="2way_noise.dump.xml"/>
+	<edgeData file="2way_traffic.dump.xml" freq="20" id="Traffic Measures" />
+	<edgeData file="2way_pollution.dump.xml" freq="20" id="Emission Data" type="emissions" />
+	<edgeData file="2way_noise.dump.xml" freq="20" id="Noise Data" type="harmonoise" />
 </additional>
