@@ -1,16 +1,16 @@
 <additional>
-	<tlLogic id="cluster_3544969787_3544969791_4208416984_5690522432_5690522433_5690522434_5690522435_5690522436_63790691" type="actuated" programID=";custom" offset="0">
-		<phase duration="27" state="GrrrrrrrrrGGGG" minDur="5" maxDur="50"/>
-		<phase duration="6" state="yrrrrrrrrryyyy"/>
-		<phase duration="6" state="rGGrrrrrrrrrrr" minDur="5" maxDur="50"/>
-		<phase duration="6" state="ryyrrrrrrrrrrr"/>
-		<phase duration="27" state="rrrGGGGGggrrrr" minDur="5" maxDur="50"/>
-		<phase duration="6" state="rrryyyyyggrrrr"/>
-		<phase duration="6" state="rrrrrrrrGGrrrr" minDur="5" maxDur="50"/>
-		<phase duration="6" state="rrrrrrrryyrrrr"/>
+	<tlLogic id="cluster_3544969787_3544969791_4208416984_5690522432_5690522433_5690522434_5690522435_5690522436_63790691" offset="0" programID=";custom" type="actuated">
+		<phase duration="17.837" maxDur="50" minDur="5" state="GrrrrrrrrrGGGG" />
+		<phase duration="3.815" state="yrrrrrrrrryyyy" />
+		<phase duration="12.846" maxDur="50" minDur="5" state="rGGrrrrrrrrrrr" />
+		<phase duration="3.815" state="ryyrrrrrrrrrrr" />
+		<phase duration="26.268" maxDur="50" minDur="5" state="rrrGGGGGggrrrr" />
+		<phase duration="3.815" state="rrryyyyyggrrrr" />
+		<phase duration="17.788" maxDur="50" minDur="5" state="rrrrrrrrGGrrrr" />
+		<phase duration="3.815" state="rrrrrrrryyrrrr" />
 	</tlLogic>
-	<edgeData id="Traffic Measures" freq="20" file="littleriver_traffic.dump.xml"/>
-	<edgeData id="Emission Data" type="emissions" freq="20" file="littleriver_pollution.dump.xml"/>
-	<edgeData id="Noise Data" type="harmonoise" freq="20" file="littleriver_noise.dump.xml"/>
+	<edgeData file="littleriver_traffic.dump.xml" freq="20" id="Traffic Measures" />
+	<edgeData file="littleriver_pollution.dump.xml" freq="20" id="Emission Data" type="emissions" />
+	<edgeData file="littleriver_noise.dump.xml" freq="20" id="Noise Data" type="harmonoise" />
 	
 </additional>
