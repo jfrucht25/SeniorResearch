@@ -1,60 +1,60 @@
 <additional>   
    <tlLogic id="2594721970" offset="0" programID="1" type="static">
-        <phase duration="44.714" state="GGGrrr" />
-        <phase duration="0.286" state="yyyrrr" />
-        <phase duration="44.714" state="rrrGGG" />
-        <phase duration="0.286" state="rrryyy" />
+        <phase duration="44.856" state="GGGrrr" />
+        <phase duration="0.144" state="yyyrrr" />
+        <phase duration="44.856" state="rrrGGG" />
+        <phase duration="0.144" state="rrryyy" />
     </tlLogic>
     <tlLogic id="49759090" offset="0" programID="2" type="static">
-        <phase duration="88.862" state="GGG" />
-        <phase duration="0.569" state="yyy" />
-        <phase duration="0.569" state="rrr" />
+        <phase duration="89.427" state="GGG" />
+        <phase duration="0.286" state="yyy" />
+        <phase duration="0.286" state="rrr" />
     </tlLogic>
     <tlLogic id="49759091" offset="0" programID="3" type="static">
-        <phase duration="44.714" state="GGGG" />
-        <phase duration="0.286" state="yyyy" />
-        <phase duration="44.714" state="GGGG" />
-        <phase duration="0.286" state="yyyy" />
+        <phase duration="44.856" state="GGGG" />
+        <phase duration="0.144" state="yyyy" />
+        <phase duration="44.856" state="GGGG" />
+        <phase duration="0.144" state="yyyy" />
     </tlLogic>
     <tlLogic id="49787926" offset="0" programID="4" type="static">
-        <phase duration="44.714" state="GGG" />
-        <phase duration="0.286" state="yyy" />
-        <phase duration="44.714" state="GGG" />
-        <phase duration="0.286" state="yyy" />
+        <phase duration="44.856" state="GGG" />
+        <phase duration="0.144" state="yyy" />
+        <phase duration="44.856" state="GGG" />
+        <phase duration="0.144" state="yyy" />
     </tlLogic>
     <tlLogic id="49787931" offset="0" programID="5" type="static">
-        <phase duration="44.714" state="GGGrr" />
-        <phase duration="0.286" state="yyyrr" />
-        <phase duration="44.714" state="GrGGG" />
-        <phase duration="0.286" state="yryyy" />
+        <phase duration="44.856" state="GGGrr" />
+        <phase duration="0.144" state="yyyrr" />
+        <phase duration="44.856" state="GrGGG" />
+        <phase duration="0.144" state="yryyy" />
     </tlLogic>
     <tlLogic id="49787936" offset="0" programID="6" type="static">
-        <phase duration="44.633" state="GgrrGG" />
-        <phase duration="0.287" state="yyrryy" />
-        <phase duration="44.793" state="rrGGGr" />
-        <phase duration="0.287" state="rryyyr" />
+        <phase duration="44.776" state="GgrrGG" />
+        <phase duration="0.144" state="yyrryy" />
+        <phase duration="44.936" state="rrGGGr" />
+        <phase duration="0.144" state="rryyyr" />
     </tlLogic>
     <tlLogic id="49807115" offset="0" programID="7" type="static">
-        <phase duration="88.862" state="GGGG" />
-        <phase duration="0.569" state="yyyy" />
-        <phase duration="0.569" state="rrrr" />
+        <phase duration="89.427" state="GGGG" />
+        <phase duration="0.286" state="yyyy" />
+        <phase duration="0.286" state="rrrr" />
     </tlLogic>
     <tlLogic id="49831064" offset="0" programID="8" type="static">
-        <phase duration="44.714" state="GrrGg" />
-        <phase duration="0.286" state="yrryy" />
-        <phase duration="44.714" state="rGGrr" />
-        <phase duration="0.286" state="ryyrr" />
+        <phase duration="44.856" state="GrrGg" />
+        <phase duration="0.144" state="yrryy" />
+        <phase duration="44.856" state="rGGrr" />
+        <phase duration="0.144" state="ryyrr" />
     </tlLogic>
     <tlLogic id="49831070" offset="0" programID="9" type="static">
-        <phase duration="44.714" state="rrGGGg" />
-        <phase duration="0.286" state="rryyyy" />
-        <phase duration="44.714" state="GGGrrr" />
-        <phase duration="0.286" state="yyyrrr" />
+        <phase duration="44.856" state="rrGGGg" />
+        <phase duration="0.144" state="rryyyy" />
+        <phase duration="44.856" state="GGGrrr" />
+        <phase duration="0.144" state="yyyrrr" />
     </tlLogic>
     <tlLogic id="cluster_2399740768_2594721961" offset="0" programID="10" type="static">
-        <phase duration="88.862" state="GGGG" />
-        <phase duration="0.569" state="yyyy" />
-        <phase duration="0.569" state="rrrr" />
+        <phase duration="89.427" state="GGGG" />
+        <phase duration="0.286" state="yyyy" />
+        <phase duration="0.286" state="rrrr" />
     </tlLogic>
 	<edgeData file="DCMed_traffic.dump.xml" freq="20" id="Traffic Measures" />
 	<edgeData file="DCMed_pollution.dump.xml" freq="20" id="Emission Data" type="emissions" />

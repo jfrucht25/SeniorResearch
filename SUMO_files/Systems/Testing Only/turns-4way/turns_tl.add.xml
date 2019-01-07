@@ -1,0 +1,11 @@
+<additional>
+	<tlLogic id="gneJ1" offset="0" programID="custom" type="static">
+		<phase duration="28.96" state="GGrrGGrr" />
+		<phase duration="1.04" state="yyrryyrr" />
+		<phase duration="28.96" state="rrGGrrGG" />
+		<phase duration="1.04" state="rryyrryy" />
+	</tlLogic>
+	<edgeData file="turns_traffic.dump.xml" freq="20" id="Traffic Measures" />
+	<edgeData file="turns_pollution.dump.xml" freq="20" id="Emission Data" type="emissions" />
+	<edgeData file="turns_noise.dump.xml" freq="20" id="Noise Data" type="harmonoise" />
+</additional>

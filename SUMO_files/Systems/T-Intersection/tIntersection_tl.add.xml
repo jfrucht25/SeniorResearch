@@ -1,13 +1,13 @@
 <additional>
-	<tlLogic id="gneJ1" type="static" programID="custom" offset="0">
-		<phase duration="38" state="rrGGGg"/>
-		<phase duration="3" state="rryyyg"/>
-		<phase duration="6" state="rrrrrG"/>
-		<phase duration="3" state="rrrrry"/>
-		<phase duration="37" state="GGGrGr"/>
-		<phase duration="3" state="yyyryr"/>
+	<tlLogic id="gneJ1" offset="0" programID="custom" type="static">
+		<phase duration="28.711" state="rrGGGg" />
+		<phase duration="1.289" state="rryyyg" />
+		<phase duration="28.711" state="rrrrrG" />
+		<phase duration="1.289" state="rrrrry" />
+		<phase duration="28.711" state="GGGrGr" />
+		<phase duration="1.289" state="yyyryr" />
 	</tlLogic>
-	<edgeData id="Traffic Measures" freq="20" file="tIntersection_traffic.dump.xml"/>
-	<edgeData id="Emission Data" type="emissions" freq="20" file="tIntersection_pollution.dump.xml"/>
-	<edgeData id="Noise Data" type="harmonoise" freq="20" file="tIntersection_noise.dump.xml"/>
+	<edgeData file="tIntersection_traffic.dump.xml" freq="20" id="Traffic Measures" />
+	<edgeData file="tIntersection_pollution.dump.xml" freq="20" id="Emission Data" type="emissions" />
+	<edgeData file="tIntersection_noise.dump.xml" freq="20" id="Noise Data" type="harmonoise" />
 </additional>

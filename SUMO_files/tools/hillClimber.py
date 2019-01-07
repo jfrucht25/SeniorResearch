@@ -228,9 +228,10 @@ print("Minimum waiting time: %d" % current_args["min_wait"])
 print("Maximum waiting time: %d" % current_args["max_wait"])
 print("Steps required to complete: %d" % current_steps)
 
-improved = False
+
+past_runs = {(current_min_wait, current_max_wait): current_steps}
 while True:
-    c = False
+    improved = False
     neighbors = []
     for key in ["max_wait", "min_wait"]:
         for adder in [-1, 1]:
@@ -239,26 +240,31 @@ while True:
             if isValid(temp):
                 neighbors.append(temp)
     for n in neighbors:
-        traci.start(sumoCmd)
-        controller = TrafficController(n)
-        steps_taken = controller.simulate()
-        traci.close()
         min_wait = n["min_wait"]
         max_wait = n["max_wait"]
+        if (min_wait, max_wait) in past_runs:
+            steps_taken = past_runs[(min_wait, max_wait)]
+        else:
+            traci.start(sumoCmd)
+            controller = TrafficController(n)
+            steps_taken = controller.simulate()
+            traci.close()
+            past_runs[(min_wait, max_wait)] = steps_taken
         summary.append((min_wait, max_wait, steps_taken))
-        print("Minimum waiting time: %d" % min_wait)
-        print("Maximum waiting time: %d" % max_wait)
-        print("Steps required to complete: %d" % steps_taken)
         if steps_taken < current_steps:
             current_args = n.copy()
             current_steps = steps_taken
             print("This neighbor is better; using as current")
             improved = True
             break
+        print("Minimum waiting time: %d" % min_wait)
+        print("Maximum waiting time: %d" % max_wait)
+        print("Steps required to complete: %d" % steps_taken)
+        print("-------------------")
     if not improved:
         break
 for tup in summary:
     print("Minimum waiting time: %d" % tup[0])
-    print("Minimum waiting time: %d" % tup[1])
+    print("Maximum waiting time: %d" % tup[1])
     print("Steps required to complete: %d" % tup[2])
 traci.close()

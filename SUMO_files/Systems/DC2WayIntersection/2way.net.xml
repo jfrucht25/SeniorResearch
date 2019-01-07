@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 09/26/18 09:24:54 by Eclipse SUMO netedit Version 1.0.0
+<!-- generated on 12/19/18 09:29:23 by Eclipse SUMO netedit Version 1.0.1
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="C:\Users\isaia\OneDrive\Documents\GitHub\SeniorResearch\SUMO_files\RealWorldSystems\DC2WayIntersection\2way.net.xml"/>
+        <sumo-net-file value="C:\Users\isaia\OneDrive\Documents\GitHub\SeniorResearch\SUMO_files\Systems\DC2WayIntersection\2way.net.xml"/>
     </input>
 
     <output>
-        <output-file value="C:\Users\isaia\OneDrive\Documents\GitHub\SeniorResearch\SUMO_files\RealWorldSystems\DC2WayIntersection\2way.net.xml"/>
+        <output-file value="C:\Users\isaia\OneDrive\Documents\GitHub\SeniorResearch\SUMO_files\Systems\DC2WayIntersection\2way.net.xml"/>
         <output.street-names value="true"/>
     </output>
 
@@ -33,7 +33,7 @@
 
 <net version="1.0" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
 
-    <location netOffset="-322351.91,-4308361.46" convBoundary="0.00,0.00,339.69,201.75" origBoundary="-77.048793,38.906225,-77.044884,38.908075" projParameter="+proj=utm +zone=18 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"/>
+    <location netOffset="-322351.91,-4308361.46" convBoundary="0.00,0.00,422.05,201.75" origBoundary="-77.048793,38.906225,-77.044884,38.908075" projParameter="+proj=utm +zone=18 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"/>
 
     <type id="highway.bridleway" priority="1" numLanes="1" speed="2.78" allow="pedestrian" oneway="1" width="2.00"/>
     <type id="highway.bus_guideway" priority="1" numLanes="1" speed="27.78" allow="bus" oneway="1"/>
@@ -69,23 +69,23 @@
     <type id="railway.tram" priority="15" numLanes="1" speed="13.89" allow="tram" oneway="1"/>
 
     <edge id=":49765167_0" function="internal">
-        <lane id=":49765167_0_0" index="0" disallow="tram rail_urban rail rail_electric ship" speed="12.22" length="17.75" shape="271.17,120.72 267.55,116.61 263.94,113.69 260.33,111.97 256.74,111.45"/>
+        <lane id=":49765167_0_0" index="0" disallow="tram rail_urban rail rail_electric ship" speed="12.26" length="17.87" shape="271.25,120.83 267.59,116.67 263.96,113.72 260.34,111.98 256.74,111.45"/>
     </edge>
     <edge id=":49765167_1" function="internal">
-        <lane id=":49765167_1_0" index="0" disallow="tram rail_urban rail rail_electric ship" speed="27.78" length="19.07" shape="271.17,120.72 259.53,105.62"/>
-        <lane id=":49765167_1_1" index="1" disallow="tram rail_urban rail rail_electric ship" speed="27.78" length="19.07" shape="273.71,118.77 262.07,103.67"/>
+        <lane id=":49765167_1_0" index="0" disallow="tram rail_urban rail rail_electric ship" speed="27.78" length="19.20" shape="271.25,120.83 259.53,105.62"/>
+        <lane id=":49765167_1_1" index="1" disallow="tram rail_urban rail rail_electric ship" speed="27.78" length="19.20" shape="273.79,118.88 262.07,103.67"/>
     </edge>
     <edge id=":49765167_3" function="internal">
-        <lane id=":49765167_3_0" index="0" disallow="tram rail_urban rail rail_electric ship" speed="5.56" length="9.39" shape="279.04,110.99 276.17,111.41 274.75,112.52 274.78,114.32 276.24,116.82"/>
+        <lane id=":49765167_3_0" index="0" disallow="tram rail_urban rail rail_electric ship" speed="5.55" length="9.43" shape="279.15,111.18 276.25,111.54 274.82,112.61 274.84,114.41 276.32,116.92"/>
     </edge>
     <edge id=":49765167_4" function="internal">
-        <lane id=":49765167_4_0" index="0" disallow="tram rail_urban rail rail_electric ship" speed="13.89" length="22.30" shape="279.04,110.99 256.74,111.45"/>
+        <lane id=":49765167_4_0" index="0" disallow="tram rail_urban rail rail_electric ship" speed="13.89" length="22.41" shape="279.15,111.18 256.74,111.45"/>
     </edge>
     <edge id=":49765167_5" function="internal">
-        <lane id=":49765167_5_0" index="0" disallow="tram rail_urban rail rail_electric ship" speed="12.70" length="19.19" shape="279.04,110.99 273.80,110.62 269.22,109.28 265.31,106.96 262.07,103.67"/>
+        <lane id=":49765167_5_0" index="0" disallow="tram rail_urban rail rail_electric ship" speed="12.94" length="19.33" shape="279.15,111.18 273.85,110.71 269.23,109.30 265.31,106.95 262.07,103.67"/>
     </edge>
     <edge id=":49765167_6" function="internal">
-        <lane id=":49765167_6_0" index="0" disallow="tram rail_urban rail rail_electric ship" speed="27.78" length="19.07" shape="264.60,101.71 276.24,116.82"/>
+        <lane id=":49765167_6_0" index="0" disallow="tram rail_urban rail rail_electric ship" speed="27.78" length="19.20" shape="264.60,101.71 276.32,116.92"/>
     </edge>
     <edge id=":49765167_7" function="internal">
         <lane id=":49765167_7_0" index="0" disallow="tram rail_urban rail rail_electric ship" speed="7.40" length="5.83" shape="264.60,101.71 266.84,105.86 266.63,106.96"/>
@@ -95,7 +95,7 @@
     </edge>
 
     <edge id="-6055187#1" from="49765167" to="49764801" name="New Hampshire Avenue Northwest" priority="7" type="highway.secondary" shape="269.88,111.18 325.23,183.06 339.69,201.75">
-        <lane id="-6055187#1_0" index="0" disallow="tram rail_urban rail rail_electric ship" speed="27.78" length="106.00" shape="276.24,116.82 326.50,182.08 340.96,200.77">
+        <lane id="-6055187#1_0" index="0" disallow="tram rail_urban rail rail_electric ship" speed="27.78" length="105.87" shape="276.32,116.92 326.50,182.08 340.96,200.77">
             <param key="origId" value="6055187"/>
         </lane>
     </edge>
@@ -105,7 +105,7 @@
         </lane>
     </edge>
     <edge id="215306712#0" from="49797601" to="49765167" name="N Street Northwest" priority="4" type="highway.residential" spreadType="center">
-        <lane id="215306712#0_0" index="0" disallow="tram rail_urban rail rail_electric ship" speed="13.89" length="60.00" shape="339.02,109.76 279.04,110.99">
+        <lane id="215306712#0_0" index="0" disallow="tram rail_urban rail rail_electric ship" speed="13.89" length="142.90" shape="422.05,111.10 279.15,111.18">
             <param key="origId" value="215306712"/>
         </lane>
     </edge>
@@ -115,10 +115,10 @@
         </lane>
     </edge>
     <edge id="6055187#0" from="49764801" to="49765167" name="New Hampshire Avenue Northwest" priority="7" type="highway.secondary" shape="339.69,201.75 325.23,183.06 269.88,111.18">
-        <lane id="6055187#0_0" index="0" disallow="tram rail_urban rail rail_electric ship" speed="27.78" length="106.01" shape="335.89,204.69 321.43,185.99 271.17,120.72">
+        <lane id="6055187#0_0" index="0" disallow="tram rail_urban rail rail_electric ship" speed="27.78" length="105.88" shape="335.89,204.69 321.43,185.99 271.25,120.83">
             <param key="origId" value="6055187"/>
         </lane>
-        <lane id="6055187#0_1" index="1" disallow="tram rail_urban rail rail_electric ship" speed="27.78" length="106.01" shape="338.42,202.73 323.96,184.04 273.71,118.77">
+        <lane id="6055187#0_1" index="1" disallow="tram rail_urban rail rail_electric ship" speed="27.78" length="105.88" shape="338.42,202.73 323.96,184.04 273.79,118.88">
             <param key="origId" value="6055187"/>
         </lane>
     </edge>
@@ -140,7 +140,7 @@
 
     <junction id="49741717" type="dead_end" x="184.14" y="0.00" incLanes="6055187#2_0 6055187#2_1" intLanes="" shape="184.14,-0.00 179.07,3.91 184.14,0.00"/>
     <junction id="49764801" type="dead_end" x="339.69" y="201.75" incLanes="-6055187#1_0" intLanes="" shape="339.69,201.75 342.22,199.79 339.69,201.75"/>
-    <junction id="49765167" type="traffic_light" x="269.88" y="111.18" incLanes="6055187#0_0 6055187#0_1 215306712#0_0 -6055187#2_0" intLanes=":49765167_0_0 :49765167_1_0 :49765167_1_1 :49765167_3_0 :49765167_4_0 :49765167_5_0 :49765167_6_0 :49765167_8_0" shape="269.90,121.70 277.51,115.84 276.60,114.07 276.68,113.45 277.12,112.99 277.91,112.70 279.07,112.59 279.00,109.39 276.87,109.19 274.72,108.49 272.54,107.29 270.34,105.60 268.11,103.42 265.87,100.74 258.27,106.60 259.18,108.37 259.10,109.00 258.66,109.45 257.86,109.74 256.71,109.85 256.77,113.05 258.91,113.25 261.06,113.95 263.24,115.15 265.44,116.84 267.66,119.02">
+    <junction id="49765167" type="traffic_light" x="269.88" y="111.18" incLanes="6055187#0_0 6055187#0_1 215306712#0_0 -6055187#2_0" intLanes=":49765167_0_0 :49765167_1_0 :49765167_1_1 :49765167_3_0 :49765167_4_0 :49765167_5_0 :49765167_6_0 :49765167_8_0" shape="269.98,121.80 277.59,115.95 276.68,114.19 276.76,113.57 277.20,113.13 277.99,112.86 279.15,112.78 279.15,109.58 276.98,109.33 274.80,108.59 272.60,107.37 270.37,105.65 268.13,103.44 265.87,100.74 258.27,106.60 259.18,108.37 259.10,109.00 258.66,109.45 257.86,109.74 256.71,109.85 256.77,113.05 258.91,113.26 261.07,113.96 263.26,115.17 265.47,116.88 267.72,119.09">
         <request index="0" response="00000000" foes="10010000" cont="0"/>
         <request index="1" response="00000000" foes="10110000" cont="0"/>
         <request index="2" response="00000000" foes="10110000" cont="0"/>
@@ -150,7 +150,7 @@
         <request index="6" response="00000000" foes="00111000" cont="0"/>
         <request index="7" response="00000111" foes="00110111" cont="1"/>
     </junction>
-    <junction id="49797601" type="dead_end" x="339.02" y="109.76" incLanes="" intLanes="" shape="338.99,108.16 339.05,111.36"/>
+    <junction id="49797601" type="dead_end" x="422.05" y="111.10" incLanes="" intLanes="" shape="422.05,109.50 422.05,112.70"/>
     <junction id="49824756" type="dead_end" x="0.00" y="116.70" incLanes="215306712#1_0" intLanes="" shape="0.03,118.30 -0.03,115.10"/>
 
     <junction id=":49765167_8_0" type="internal" x="266.63" y="106.96" incLanes=":49765167_7_0 6055187#0_0 6055187#0_1" intLanes=":49765167_0_0 :49765167_1_0 :49765167_1_1 :49765167_4_0 :49765167_5_0"/>

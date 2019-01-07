@@ -1,9 +1,9 @@
 <additional>
 	<tlLogic id="49765167" offset="0" programID="custom" type="static">
-		<phase duration="41.239" state="GGGrrrGG" />
-		<phase duration="5.3" state="yyyrrryy" />
-		<phase duration="38.16" state="rrrGGGrr" />
-		<phase duration="5.3" state="rrryyyrr" />
+		<phase duration="27.007" state="GGGrrrGG" />
+		<phase duration="1.736" state="yyyrrryy" />
+		<phase duration="59.521" state="rrrGGGrr" />
+		<phase duration="1.736" state="rrryyyrr" />
 	</tlLogic>
 	<edgeData file="2way_traffic.dump.xml" freq="20" id="Traffic Measures" />
 	<edgeData file="2way_pollution.dump.xml" freq="20" id="Emission Data" type="emissions" />
